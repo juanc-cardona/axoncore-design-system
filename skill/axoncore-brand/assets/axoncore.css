@@ -273,6 +273,7 @@
   line-height: 0.95;
   font-weight: 300;
   letter-spacing: -0.03em;
+  text-wrap: balance;
 }
 .type-impact {
   font-family: var(--font-grand);
@@ -280,6 +281,7 @@
   line-height: 0.95;
   font-weight: 800;
   letter-spacing: -0.02em;
+  text-wrap: balance;
 }
 .type-display {
   font-family: var(--font-display);
@@ -287,6 +289,7 @@
   line-height: 1;
   font-weight: 400;
   letter-spacing: -0.02em;
+  text-wrap: balance;
 }
 .type-h1 {
   font-family: var(--font-display);
@@ -294,6 +297,7 @@
   line-height: 1.1;
   font-weight: 400;
   letter-spacing: -0.015em;
+  text-wrap: balance;
 }
 .type-h2 {
   font-family: var(--font-display);
@@ -301,6 +305,7 @@
   line-height: 1.2;
   font-weight: 700;
   letter-spacing: -0.01em;
+  text-wrap: balance;
 }
 .type-h3 {
   font-family: var(--font-display);
@@ -324,6 +329,7 @@
   font-weight: 100;
   font-style: italic;
   letter-spacing: -0.01em;
+  text-wrap: balance;
 }
 .type-stamp {
   font-family: var(--font-wide);

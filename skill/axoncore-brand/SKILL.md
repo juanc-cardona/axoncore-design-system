@@ -60,7 +60,7 @@ These protect recognisability and accessibility; break them only if the user exp
 - Tuteo in product and marketing; *usted* only for contracts/formal proposals when the client uses it.
 - No emoji, no exclamation marks, no buzzwords (revolucionar, disruptivo, sinergia, next-gen, "magia").
 - Buttons: verb + object ("Solicitar demo", "Crear workspace").
-- Tagline: *Inteligencia, conectada.* (EN: *Intelligence, wired in.*)
+- Tagline (current, until further notice): *IA Generativa para impulsar tu negocio.* Use it verbatim — "IA Generativa" keeps its capital G. All-caps only in all-caps pieces. Place it under the logo on covers, as campaign sign-off, deck closer and email footer. EN version pending approval: *Generative AI to power your business.*
 
 ## Core tokens (dark / light)
 

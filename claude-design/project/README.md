@@ -49,7 +49,7 @@ Usa siempre los archivos de **Logos**: nunca reescribas `axoncore` con una fuent
 
 ## Voz
 
-Profesional, confiable, directa y visionaria. Voz activa, frases cortas, datos antes que adjetivos, tuteo, sin emoji ni exclamaciones ni buzzwords. Botones = verbo + objeto: "Solicitar demo", "Crear workspace". Tagline: *Inteligencia, conectada.* Detalle en la sección Voz y tono.
+Profesional, confiable, directa y visionaria. Voz activa, frases cortas, datos antes que adjetivos, tuteo, sin emoji ni exclamaciones ni buzzwords. Botones = verbo + objeto: "Solicitar demo", "Crear workspace". Tagline vigente: *IA Generativa para impulsar tu negocio.* (tal cual, con "IA Generativa") Detalle en la sección Voz y tono.
 
 ## Nombre
 

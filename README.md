@@ -32,7 +32,7 @@ npm run check   # auditoría de contraste WCAG en ambos temas
 <html data-theme="dark">  <!-- dark (defecto) · light · auto -->
 <link rel="stylesheet" href="dist/css/axoncore.css">
 <body class="ax-root">
-  <h1 class="type-hero">Inteligencia, conectada.</h1>
+  <h1 class="type-hero">IA Generativa para impulsar tu negocio</h1>
   <button class="ax-btn ax-btn--signal ax-btn--lg">Solicitar demo</button>
 </body>
 ```

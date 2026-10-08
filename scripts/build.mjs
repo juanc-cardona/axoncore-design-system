@@ -99,6 +99,7 @@ for (const g of SRC.type.groups)
     if (s.fontStyle) typo += `  font-style: ${s.fontStyle};\n`;
     if (s.letterSpacing) typo += `  letter-spacing: ${s.letterSpacing};\n`;
     if (UPPER.has(s.name)) typo += `  text-transform: uppercase;\n`;
+    if (/^type-(hero|impact|display|h1|h2|quote)$/.test(s.name)) typo += `  text-wrap: balance;\n`;
     if (TABULAR.has(s.name)) typo += `  font-variant-numeric: tabular-nums;\n`;
     if (NOLIGA.has(s.name)) typo += `  font-variant-ligatures: none;\n`;
     typo += `}\n`;

@@ -16,7 +16,7 @@
 
 | Contexto | Tono | Ejemplo |
 |---|---|---|
-| Campaña / héroe | Visionario, rotundo | "Inteligencia, conectada." |
+| Campaña / héroe | Visionario, rotundo | "IA Generativa para impulsar tu negocio." |
 | Producto (UI) | Funcional, breve | "Pipeline desplegado en eu-west-3." |
 | Ventas / propuesta | Consultivo, cuantificado | "Reducimos un 38 % el coste por inferencia en 90 días." |
 | Errores | Calmo, accionable | "No pudimos conectar con la fuente. Revisa las credenciales y reintenta." |
@@ -46,7 +46,11 @@
 
 ## Mensajes de marca
 
-- **Tagline principal:** *Inteligencia, conectada.* (EN: *Intelligence, wired in.*)
+- **Tagline principal (vigente hasta nuevo aviso):** *IA Generativa para impulsar tu negocio.*
+  - Úsalo tal cual: "IA Generativa" con G mayúscula es la forma oficial del tagline (excepción a sentence case). Sin variaciones, sin signos de exclamación.
+  - En mayúsculas solo en piezas todo-mayúsculas: *IA GENERATIVA PARA IMPULSAR TU NEGOCIO*.
+  - Ubicación: bajo el logo en portadas, firma de campaña, cierre de deck, pie de email y hero cuando no hay un titular específico.
+  - Versión EN (pendiente de aprobación): *Generative AI to power your business.*
 - **Promesa:** AxonCore conecta datos, modelos y equipos en una sola capa operativa.
 - **Prueba:** trazabilidad completa, integración sin fricción, rendimiento medible.
 - **Líneas de apoyo:** "La complejidad, hecha legible." · "El núcleo de tu operación inteligente." · "Precisión que escala."

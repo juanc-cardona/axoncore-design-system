@@ -17,3 +17,4 @@ Documentación viva. Cada entrada: fecha · decisión · motivo · impacto.
 | 2026-10-08 | `status-danger` naranja-rojo (35°). | Evitar confusión con Pulse (magenta). | Estados distinguibles de la marca. |
 | 2026-10-08 | Grises neutros del brandbook (no fríos). | Fidelidad al brandbook; el frío lo aporta Signal. | Escala `ink-*`. |
 | 2026-10-08 | Lucide como sistema de iconos. | El brandbook no define iconografía; trazo redondeado coherente con el isotipo. | Iconos 1,5 px, `currentColor`. |
+| 2026-10-08 | Tagline vigente hasta nuevo aviso: **"IA Generativa para impulsar tu negocio"** (reemplaza "Inteligencia, conectada."). | Definición de marca: posicionar la oferta de IA generativa orientada a negocio. | Portada de Claude Design, hero del showcase, voz y tono, skill. EN pendiente de aprobación. |

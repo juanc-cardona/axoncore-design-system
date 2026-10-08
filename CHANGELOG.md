@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.1.1 — 2026-10-08
+
+- Nuevo tagline: "IA Generativa para impulsar tu negocio" en portada, showcase, voz y tono, skill y Claude Design.
+- `text-wrap: balance` en estilos display para cortes de línea equilibrados.
+
 ## 1.1.0 — 2026-10-08
 
 - Agrandir con licencia comercial: 9 estilos en WOFF2 (web/Claude Design) y OTF (escritorio); `fonts.css` los carga automáticamente.
