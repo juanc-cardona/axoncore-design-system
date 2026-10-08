@@ -1,5 +1,5 @@
 /* AxonCore Design System — generated from tokens/axoncore.tokens.json. Do not edit by hand. */
-/* For artifacts: load Geist + Geist Mono from Google Fonts; Agrandir falls back to Geist unless licensed webfonts are loaded. */
+/* For artifacts: prepend axoncore-fonts.css (embedded Agrandir + Geist). */
 :root,
 [data-theme="dark"] {
   color-scheme: dark;

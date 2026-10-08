@@ -74,4 +74,4 @@ Matices del brandbook conservados como pasos 600/700: Pulse #DD1969 / #C11765 ·
 | Mockups con logotipo en gradiente, logo reflejado y rotado | Prohibido (ver Logo) |
 | Grandes superficies en gradiente (taza, tote, libreta) | Solo en merch/campaña; nunca en producto digital |
 | Tipografías secundarias sin definir | Geist + Geist Mono (ver Tipografía) |
-| Nombre escrito como "Axoncore" y "AXONCORE" | "AxonCore" |
+| Nombre escrito como "Axoncore" y "AXONCORE" | Válidos "AxonCore" (por defecto) y "AXONCORE" (piezas en mayúsculas); "Axoncore" no |

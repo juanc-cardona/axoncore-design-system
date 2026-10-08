@@ -39,14 +39,14 @@ These protect recognisability and accessibility; break them only if the user exp
 - Display: **Agrandir** with fixed roles — Wide Light (hero, ≤ 6 words), Grand Heavy (impact, ≤ 4 words), Regular (display/H1), Text Bold (H2/H3), Tight (metrics), Narrow (uppercase overline), Thin Italic (quotes), Wide Black Italic (uppercase stamps/seals).
 - Text & UI: **Geist**. Code & data: **Geist Mono**. Max two families per piece (Agrandir + Geist).
 - Agrandir never below 18 px except overline/stamp. Body copy always Geist. Sentence case; uppercase only for eyebrow, overline, stamp.
-- Agrandir is only licensed for personal use until the company buys the commercial licence; in web artifacts load Geist from Google Fonts and let display styles fall back to Geist unless Agrandir webfonts are available.
+- Agrandir is commercially licensed for AxonCore. In HTML artifacts embed it with `assets/axoncore-fonts.css` (all Agrandir styles + Geist + Geist Mono as embedded WOFF2) so display type always renders in Agrandir. Never let a hero, title or cover fall back to a system font.
 
 **Logo**
 - Never retype the wordmark (it is custom lettering, not a font). Use `assets/logos/*.svg` or the React `<Logo>`.
 - Versions: *Horizontal* = isotype above one-line wordmark · *Vertical* = isotype left of two-line wordmark · *Isotype*. Colorways: positive (light bg), negative (dark bg, primary), mono-black, mono-white.
 - Never stretch, recolor, mirror, rotate, blur, outline, add effects, put the gradient on the wordmark, or place the color version on busy photos/gradients (use mono-white).
 - Clear space = height of the wordmark's "o"; minimum 120 px (horizontal), 96 px (vertical), 20 px (isotype).
-- Write the name as **AxonCore** — never Axoncore, AXONCORE, Axon Core.
+- Write the name as **AxonCore** (default: running text, UI, documents) or **AXONCORE** (all-caps pieces: headlines set in caps, stamps, overlines, merch, campaign sign-offs). One form per piece. Never Axoncore, Axon Core, AxonCORE.
 
 **Layout & surfaces**
 - 4 px base, 8 px layout grid; 12/8/4 columns; container 1280 px. Generous whitespace = premium.
@@ -86,7 +86,7 @@ Full scales and every token: `references/color.md` and `assets/axoncore.css`.
 ## How to work
 
 1. **Identify the deliverable** and read the matching references.
-2. **Building HTML / artifacts:** inline `assets/axoncore.css` (tokens, type classes `.type-*`, components `.ax-*`), set `<html data-theme="dark">` and `<body class="ax-root">`, and load Geist with `<link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Geist+Mono:wght@100..900&display=swap" rel="stylesheet">`. Inline the logo SVG from `assets/logos/` (wordmark fills can be set to `currentColor`).
+2. **Building HTML / artifacts:** every page opens with the brand: the logo (from `assets/logos/`, inline SVG — never typed text) in the header or cover, then content. Build the file with the shell so the large font file never enters your context: `cat assets/axoncore-fonts.css assets/axoncore.css` into the `<style>` block (do not Read `axoncore-fonts.css`; it is ~400 KB of base64). Set `<html data-theme="dark">` and `<body class="ax-root">`. Use `.type-*` for every heading and `.ax-*` components. A page with an unbranded title, default fonts or no logo is not finished.
 3. **Production code:** prefer the package `@axoncore/design-system` (CSS, Tailwind preset, React components) over re-implementing values.
 4. **If an AxonCore design system is available in Claude Design**, use it as the source for decks and designs.
 5. **Be proactive:** when you design an asset, propose its copy (headline, subhead, CTA) and its use case; when you write copy, suggest where and how it appears.
@@ -100,7 +100,8 @@ Full scales and every token: `references/color.md` and `assets/axoncore.css`.
 - [ ] Logo from official files, correct colorway for the background, clear space respected, not distorted or mirrored.
 - [ ] All text meets WCAG AA (4.5:1; 3:1 for ≥ 24 px, borders, icons).
 - [ ] 4/8 px spacing, radii 6–12 px, consistent alignment.
-- [ ] Copy: active voice, short, data-backed, sentence case, no emoji/exclamations/buzzwords, "AxonCore" spelled correctly.
+- [ ] Copy: active voice, short, data-backed, sentence case, no emoji/exclamations/buzzwords, name as "AxonCore" or "AXONCORE" (one form per piece).
+- [ ] Branded from the first line: logo present, headings in Agrandir via `.type-*`, no browser-default styling anywhere.
 - [ ] AI imagery: dark, single light source, no clichés, no generated text/logos.
 
 ## Documenting decisions

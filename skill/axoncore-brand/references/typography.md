@@ -57,7 +57,7 @@ Regla del brandbook: **máximo dos familias por pieza** (Agrandir + Geist; Geist
 6. Medida de lectura: 60–75 caracteres (`container-prose` 680 px).
 7. Interlineado ajustado (0.95–1.1) solo a partir de 40 px.
 
-## Licencias — acción requerida
+## Licencias
 
-- **Agrandir:** los archivos recibidos son la **licencia personal gratuita** de Pangram Pangram ("for personal use only"; prohíbe redistribuir). Para uso comercial (web, apps, publicidad, Claude Design) se necesita la licencia **Desktop + Web** en pangrampangram.com. Por eso el repositorio **no incluye** los archivos: colócalos en `fonts/agrandir/` (WOFF2) tras adquirir la licencia y ejecuta `npm run build`. Mientras tanto, los estilos display caen a Geist.
-- **Geist / Geist Mono:** SIL Open Font License 1.1, incluidas en `fonts/geist/` con su licencia.
+- **Agrandir:** licencia comercial adquirida (Pangram Pangram). Los 9 estilos están en `fonts/agrandir/` en WOFF2 (web, apps, Claude Design) y en `fonts/agrandir/otf/` (instalación de escritorio para diseño, Office y publicidad). Mantén el repositorio **privado**: la licencia no permite redistribuir los archivos a terceros.
+- **Geist / Geist Mono:** SIL Open Font License 1.1, en `fonts/geist/` con su licencia.

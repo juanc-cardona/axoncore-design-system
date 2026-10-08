@@ -226,7 +226,10 @@ fs.rmSync(path.join(SK, "assets"), { recursive: true, force: true });
 fs.mkdirSync(path.join(SK, "assets/logos"), { recursive: true });
 for (const f of fs.readdirSync(path.join(ROOT, "assets/logo/svg"))) fs.copyFileSync(path.join(ROOT, "assets/logo/svg", f), path.join(SK, "assets/logos", f));
 fs.copyFileSync(path.join(ROOT, "assets/favicon/favicon.svg"), path.join(SK, "assets/logos/favicon.svg"));
-fs.writeFileSync(path.join(SK, "assets/axoncore.css"), HEADER + "/* For artifacts: load Geist + Geist Mono from Google Fonts; Agrandir falls back to Geist unless licensed webfonts are loaded. */\n" +
+fs.writeFileSync(path.join(SK, "assets/axoncore.css"), HEADER + "/* For artifacts: prepend axoncore-fonts.css (embedded Agrandir + Geist). */\n" +
   tokensCss.replace(HEADER, "") + "\n" + typo.replace(HEADER, "") + "\n" + compCss);
-console.log("  ✓ skill/axoncore-brand (references + assets synced)");
+const embed = (f, dir) => `@font-face {\n  font-family: "${f.family}";\n  src: url(data:font/woff2;base64,${fs.readFileSync(path.join(ROOT, dir, path.basename(f.file))).toString("base64")}) format("woff2");\n  font-weight: ${f.weight};\n  font-style: ${f.style || "normal"};\n  font-display: swap;\n}\n`;
+fs.writeFileSync(path.join(SK, "assets/axoncore-fonts.css"), "/* AxonCore fonts embedded as WOFF2 data URIs (Agrandir: AxonCore commercial licence; Geist: OFL). Internal use only. */\n" +
+  licensed.map((f) => embed(f, "fonts/agrandir")).join("") + SRC.type.fonts.map((f) => embed(f, "fonts/geist")).join(""));
+console.log("  ✓ skill/axoncore-brand (references + assets + embedded fonts synced)");
 console.log("Done.");

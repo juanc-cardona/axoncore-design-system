@@ -1,23 +1,18 @@
 # Agrandir — tipografía display de AxonCore
 
-Diseñada por Pangram Pangram. **Los archivos no se versionan aquí.**
+Diseñada por Pangram Pangram. **Licencia comercial adquirida por AxonCore.** No redistribuir fuera de la organización; mantén este repositorio privado.
 
-Los archivos entregados con el brandbook son la licencia *personal* gratuita ("for personal use only", sin redistribución). Para web, apps, publicidad y Claude Design se requiere la licencia comercial **Desktop + Web** en https://pangrampangram.com.
+- `*.woff2` — web, apps y Claude Design (los usa `dist/css/fonts.css`).
+- `otf/` — instalación de escritorio (Figma, Adobe, Office, Keynote).
 
-## Una vez licenciada
-
-Coloca aquí los WOFF2 con estos nombres exactos y ejecuta `npm run build`; `dist/css/fonts.css` añadirá los `@font-face` automáticamente.
-
-| Archivo | Familia CSS | Peso / estilo |
-|---|---|---|
-| Agrandir-Regular.woff2 | Agrandir | 400 |
-| Agrandir-TextBold.woff2 | Agrandir | 700 |
-| Agrandir-ThinItalic.woff2 | Agrandir | 100 italic |
-| Agrandir-GrandLight.woff2 | Agrandir Grand | 300 |
-| Agrandir-GrandHeavy.woff2 | Agrandir Grand | 800 |
-| Agrandir-WideLight.woff2 | Agrandir Wide | 300 |
-| Agrandir-WideBlackItalic.woff2 | Agrandir Wide | 900 italic |
-| Agrandir-Narrow.woff2 | Agrandir Narrow | 400 |
-| Agrandir-Tight.woff2 | Agrandir Tight | 400 |
-
-Si el repositorio es privado y la licencia lo permite, puedes quitar la regla de `.gitignore`.
+| Archivo | Familia CSS | Peso / estilo | Rol |
+|---|---|---|---|
+| Agrandir-Regular | Agrandir | 400 | Display, H1 |
+| Agrandir-TextBold | Agrandir | 700 | H2, H3 |
+| Agrandir-ThinItalic | Agrandir | 100 italic | Citas |
+| Agrandir-GrandLight | Agrandir Grand | 300 | Portadas editoriales |
+| Agrandir-GrandHeavy | Agrandir Grand | 800 | Impacto |
+| Agrandir-WideLight | Agrandir Wide | 300 | Hero |
+| Agrandir-WideBlackItalic | Agrandir Wide | 900 italic | Sellos |
+| Agrandir-Narrow | Agrandir Narrow | 400 | Overline |
+| Agrandir-Tight | Agrandir Tight | 400 | Métricas |

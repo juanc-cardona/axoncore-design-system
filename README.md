@@ -14,7 +14,7 @@ Sistema de diseño oficial de **AxonCore**: identidad, tokens, tipografía, comp
 | `src/` | CSS de componentes y componentes React (sin JSX, sin dependencias) |
 | `dist/` | Salidas generadas: CSS, Tailwind v3/v4, tokens JS y DTCG (Figma), React ESM/UMD, tokens para Claude Design |
 | `assets/` | Logos SVG maestros (3 versiones × 4 colorways), PNG originales, favicons, patrón Axon |
-| `fonts/` | Geist + Geist Mono (OFL). Agrandir: ver `fonts/agrandir/README.md` |
+| `fonts/` | Agrandir (licenciada, WOFF2 + OTF) · Geist + Geist Mono (OFL) |
 | `docs/` | Guía de marca completa (fundamentos, logo, color, tipografía, layout, componentes, voz, imagen/IA, implementación, decisiones) |
 | `skill/axoncore-brand/` | Skill de Claude con todo el guideline de marca |
 | `examples/` | Página showcase con todos los componentes |
@@ -88,4 +88,4 @@ Clases: `bg-canvas`, `bg-raised`, `text-primary`, `text-muted`, `border-default`
 - Código y tokens: propiedad de AxonCore. Uso interno.
 - Logos y marca: © AxonCore. Todos los derechos reservados.
 - Geist / Geist Mono: SIL Open Font License 1.1 (`fonts/geist/OFL.txt`).
-- Agrandir: Pangram Pangram, requiere licencia comercial (no incluida).
+- Agrandir: Pangram Pangram, licencia comercial de AxonCore. Repositorio privado: no redistribuir.

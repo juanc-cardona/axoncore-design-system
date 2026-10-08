@@ -53,6 +53,13 @@ AxonCore es el punto neurálgico donde convergen la tecnología y los sistemas c
 
 ## Nombre de marca en texto
 
-- Escribe siempre **AxonCore** (A y C mayúsculas, sin espacio).
-- Nunca: Axoncore, AXONCORE, Axon Core, Axon-Core.
+Dos formas válidas, a elección según la aplicación comunicacional:
+
+| Forma | Cuándo |
+|---|---|
+| **AxonCore** | Texto corrido, UI, documentos, legal, documentación técnica. Forma por defecto. |
+| **AXONCORE** | Titulares y piezas gráficas en mayúsculas, sellos (`type-stamp`), overlines, merch, firmas de campaña. |
+
+- Mantén una sola forma dentro de una misma pieza.
+- Nunca: Axoncore, axonCore, Axon Core, Axon-Core, AxonCORE.
 - El logotipo en minúsculas (`axoncore`) es dibujo, no texto: nunca lo reproduzcas tecleándolo.

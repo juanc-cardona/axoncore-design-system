@@ -16,7 +16,70 @@
   font-display: swap;
 }
 
-/* Agrandir webfonts not present: display styles fall back to Geist. See fonts/agrandir/README.md */
+/* Agrandir — Pangram Pangram commercial web licence (fonts/agrandir/) */
+@font-face {
+  font-family: "Agrandir";
+  src: url("../../fonts/agrandir/Agrandir-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Agrandir";
+  src: url("../../fonts/agrandir/Agrandir-TextBold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Agrandir";
+  src: url("../../fonts/agrandir/Agrandir-ThinItalic.woff2") format("woff2");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Agrandir Grand";
+  src: url("../../fonts/agrandir/Agrandir-GrandLight.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Agrandir Grand";
+  src: url("../../fonts/agrandir/Agrandir-GrandHeavy.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Agrandir Wide";
+  src: url("../../fonts/agrandir/Agrandir-WideLight.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Agrandir Wide";
+  src: url("../../fonts/agrandir/Agrandir-WideBlackItalic.woff2") format("woff2");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Agrandir Narrow";
+  src: url("../../fonts/agrandir/Agrandir-Narrow.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Agrandir Tight";
+  src: url("../../fonts/agrandir/Agrandir-Tight.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 
 :root,
 [data-theme="dark"] {

@@ -12,7 +12,8 @@ Documentación viva. Cada entrada: fecha · decisión · motivo · impacto.
 | 2026-10-08 | Nomenclatura Horizontal (logotipo en una línea) / Vertical (logotipo en dos líneas). | Respeta el pool de archivos entregado. | Documentado en Logo. |
 | 2026-10-08 | Geist + Geist Mono como tipografías de acompañamiento. | El brandbook menciona secundarias sin definirlas; OFL, pensadas para UI y datos. | Texto, UI, datos y comunicación. |
 | 2026-10-08 | Agrandir: uso de sus 5 anchos con roles fijos (Wide = hero/sello, Grand = impacto, Regular/TextBold = titulares, Tight = cifras, Narrow = overline, ThinItalic = cita). | Expresividad sin añadir familias. | Escala `type-*`. |
-| 2026-10-08 | Agrandir fuera del repositorio hasta tener licencia comercial. | Los archivos recibidos son licencia personal (no redistribuible). | Fallback a Geist; build detecta los WOFF2 al añadirlos. |
+| 2026-10-08 | Agrandir con licencia comercial: WOFF2 + OTF en el repositorio privado y en Claude Design. | Licencia adquirida por AxonCore. | Display en Agrandir en todos los canales; repo debe seguir privado. |
+| 2026-10-08 | Se admiten **AxonCore** (por defecto) y **AXONCORE** (piezas en mayúsculas, sellos, campaña). | Flexibilidad comunicacional definida por la marca. | Una sola forma por pieza; "Axoncore" sigue sin ser válido. |
 | 2026-10-08 | `status-danger` naranja-rojo (35°). | Evitar confusión con Pulse (magenta). | Estados distinguibles de la marca. |
 | 2026-10-08 | Grises neutros del brandbook (no fríos). | Fidelidad al brandbook; el frío lo aporta Signal. | Escala `ink-*`. |
 | 2026-10-08 | Lucide como sistema de iconos. | El brandbook no define iconografía; trazo redondeado coherente con el isotipo. | Iconos 1,5 px, `currentColor`. |
