@@ -1,0 +1,28 @@
+{
+  "name": "@axoncore/design-system",
+  "version": "1.0.0",
+  "description": "AxonCore Design System: tokens, typography, components and brand guidelines.",
+  "private": true,
+  "license": "UNLICENSED",
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check-contrast.mjs",
+    "verify": "node scripts/build.mjs && node scripts/check-contrast.mjs"
+  },
+  "files": ["dist", "assets", "fonts", "tokens"],
+  "exports": {
+    "./css": "./dist/css/axoncore.css",
+    "./css/*": "./dist/css/*",
+    "./tokens": { "types": "./dist/tokens/tokens.d.ts", "default": "./dist/tokens/tokens.mjs" },
+    "./tokens/*": "./dist/tokens/*",
+    "./react": { "types": "./dist/react/index.d.ts", "default": "./dist/react/index.mjs" },
+    "./tailwind": "./dist/tailwind/axoncore-preset.cjs",
+    "./tailwind/*": "./dist/tailwind/*",
+    "./assets/*": "./assets/*",
+    "./fonts/*": "./fonts/*"
+  },
+  "peerDependencies": { "react": ">=17" },
+  "peerDependenciesMeta": { "react": { "optional": true } }
+}

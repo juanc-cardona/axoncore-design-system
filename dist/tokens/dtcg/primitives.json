@@ -1,0 +1,655 @@
+{
+  "color": {
+    "brand-black": {
+      "$type": "color",
+      "$value": "#000000",
+      "$description": "Brandbook 03. Axon Black: the brand's ground. Canvas of the dark theme; ink of the light theme."
+    },
+    "brand-graphite": {
+      "$type": "color",
+      "$value": "#3A3A3A",
+      "$description": "Brandbook 02. Graphite: secondary dark for print and supporting surfaces."
+    },
+    "brand-mist": {
+      "$type": "color",
+      "$value": "#F6F6F6",
+      "$description": "Brandbook 01. Mist: light ground for print and light surfaces."
+    },
+    "brand-white": {
+      "$type": "color",
+      "$value": "#FFFFFF",
+      "$description": "Brandbook 01b. Pure white: wordmark on black, light canvas."
+    },
+    "brand-pulse": {
+      "$type": "color",
+      "$value": "#FC1C70",
+      "$description": "Brandbook 04. Axon Pulse (magenta): first stop of the signal gradient; energy, live states."
+    },
+    "brand-synapse": {
+      "$type": "color",
+      "$value": "#C04AE1",
+      "$description": "Brandbook 05. Axon Synapse (violet): middle stop of the signal gradient; AI and intelligence."
+    },
+    "brand-signal": {
+      "$type": "color",
+      "$value": "#0082FB",
+      "$description": "Brandbook 06. Axon Signal (blue): last stop of the signal gradient; interaction, data, primary accent."
+    },
+    "ink-1000": {
+      "$type": "color",
+      "$value": "#000000",
+      "$description": "Brand black. Dark canvas; light-theme ink."
+    },
+    "ink-950": {
+      "$type": "color",
+      "$value": "#0A0A0A",
+      "$description": "Dark theme surface-1 (sections, sidebars)."
+    },
+    "ink-900": {
+      "$type": "color",
+      "$value": "#141414",
+      "$description": "Brandbook matiz. Dark theme raised surfaces (cards)."
+    },
+    "ink-850": {
+      "$type": "color",
+      "$value": "#1E1E1E",
+      "$description": "Brandbook matiz. Dark theme overlays (menus, dialogs); dividers."
+    },
+    "ink-800": {
+      "$type": "color",
+      "$value": "#2A2A2A",
+      "$description": "Dark theme default borders around cards and panels."
+    },
+    "ink-750": {
+      "$type": "color",
+      "$value": "#3A3A3A",
+      "$description": "Brand graphite. Pressed neutral fills; light theme secondary text."
+    },
+    "ink-700": {
+      "$type": "color",
+      "$value": "#3F3F3F",
+      "$description": "Brandbook matiz. Light theme secondary text (9.7:1 on mist)."
+    },
+    "ink-650": {
+      "$type": "color",
+      "$value": "#494949",
+      "$description": "Brandbook matiz. Hover on dark neutral fills."
+    },
+    "ink-550": {
+      "$type": "color",
+      "$value": "#5C5C5C",
+      "$description": "Disabled text in the dark theme."
+    },
+    "ink-500": {
+      "$type": "color",
+      "$value": "#6B6B6B",
+      "$description": "Control borders in the dark theme (3.9:1 on black); muted text in light (5.3:1 on white)."
+    },
+    "ink-400": {
+      "$type": "color",
+      "$value": "#8C8C8C",
+      "$description": "Muted text in the dark theme (6.2:1 on black); control borders in light (3.4:1 on white)."
+    },
+    "ink-350": {
+      "$type": "color",
+      "$value": "#A1A1A1",
+      "$description": "Secondary text in the dark theme (8.1:1 on black); disabled text in light."
+    },
+    "ink-300": {
+      "$type": "color",
+      "$value": "#B5B5B5",
+      "$description": "Disabled fills and icons on light."
+    },
+    "ink-200": {
+      "$type": "color",
+      "$value": "#D4D6D8",
+      "$description": "Brandbook matiz. Light theme borders; pressed state of light buttons."
+    },
+    "ink-150": {
+      "$type": "color",
+      "$value": "#E6E7E8",
+      "$description": "Brandbook matiz. Light theme dividers and sunken fills."
+    },
+    "ink-100": {
+      "$type": "color",
+      "$value": "#F6F6F6",
+      "$description": "Brand mist. Light surface-1; primary text in the dark theme (19.4:1 on black)."
+    },
+    "ink-0": {
+      "$type": "color",
+      "$value": "#FFFFFF",
+      "$description": "White. Light canvas and raised surfaces."
+    },
+    "pulse-50": {
+      "$type": "color",
+      "$value": "#FFF1F3",
+      "$description": "Pulse (magenta) ramp. 500–700 are brandbook values; others derived in OKLCH at the brand hue."
+    },
+    "pulse-100": {
+      "$type": "color",
+      "$value": "#FFDEE3",
+      "$description": "Pulse (magenta) ramp. 500–700 are brandbook values; others derived in OKLCH at the brand hue."
+    },
+    "pulse-200": {
+      "$type": "color",
+      "$value": "#FFBCC7",
+      "$description": "Pulse (magenta) ramp. 500–700 are brandbook values; others derived in OKLCH at the brand hue."
+    },
+    "pulse-300": {
+      "$type": "color",
+      "$value": "#FE92A7",
+      "$description": "Pulse (magenta) ramp. 500–700 are brandbook values; others derived in OKLCH at the brand hue."
+    },
+    "pulse-400": {
+      "$type": "color",
+      "$value": "#FC6088",
+      "$description": "Pulse (magenta) ramp. 500–700 are brandbook values; others derived in OKLCH at the brand hue."
+    },
+    "pulse-500": {
+      "$type": "color",
+      "$value": "#FC1C70",
+      "$description": "Brandbook base. Pulse (magenta) ramp. 500–700 are brandbook values; others derived in OKLCH at the brand hue."
+    },
+    "pulse-600": {
+      "$type": "color",
+      "$value": "#DD1969",
+      "$description": "Brandbook matiz. Pulse (magenta) ramp. 500–700 are brandbook values; others derived in OKLCH at the brand hue."
+    },
+    "pulse-700": {
+      "$type": "color",
+      "$value": "#C11765",
+      "$description": "Brandbook matiz. Pulse (magenta) ramp. 500–700 are brandbook values; others derived in OKLCH at the brand hue."
+    },
+    "pulse-800": {
+      "$type": "color",
+      "$value": "#94024A",
+      "$description": "Pulse (magenta) ramp. 500–700 are brandbook values; others derived in OKLCH at the brand hue."
+    },
+    "pulse-900": {
+      "$type": "color",
+      "$value": "#670032",
+      "$description": "Pulse (magenta) ramp. 500–700 are brandbook values; others derived in OKLCH at the brand hue."
+    },
+    "pulse-950": {
+      "$type": "color",
+      "$value": "#45001F",
+      "$description": "Pulse (magenta) ramp. 500–700 are brandbook values; others derived in OKLCH at the brand hue."
+    },
+    "synapse-50": {
+      "$type": "color",
+      "$value": "#FCF1FF",
+      "$description": "Synapse (violet) ramp. 500–700 are brandbook values; others derived in OKLCH at the brand hue."
+    },
+    "synapse-100": {
+      "$type": "color",
+      "$value": "#F7DEFF",
+      "$description": "Synapse (violet) ramp. 500–700 are brandbook values; others derived in OKLCH at the brand hue."
+    },
+    "synapse-200": {
+      "$type": "color",
+      "$value": "#EEBCFE",
+      "$description": "Synapse (violet) ramp. 500–700 are brandbook values; others derived in OKLCH at the brand hue."
+    },
+    "synapse-300": {
+      "$type": "color",
+      "$value": "#E392FC",
+      "$description": "Synapse (violet) ramp. 500–700 are brandbook values; others derived in OKLCH at the brand hue."
+    },
+    "synapse-400": {
+      "$type": "color",
+      "$value": "#D567F5",
+      "$description": "Synapse (violet) ramp. 500–700 are brandbook values; others derived in OKLCH at the brand hue."
+    },
+    "synapse-500": {
+      "$type": "color",
+      "$value": "#C04AE1",
+      "$description": "Brandbook base. Synapse (violet) ramp. 500–700 are brandbook values; others derived in OKLCH at the brand hue."
+    },
+    "synapse-600": {
+      "$type": "color",
+      "$value": "#AC46CE",
+      "$description": "Brandbook matiz. Synapse (violet) ramp. 500–700 are brandbook values; others derived in OKLCH at the brand hue."
+    },
+    "synapse-700": {
+      "$type": "color",
+      "$value": "#9642BA",
+      "$description": "Brandbook matiz. Synapse (violet) ramp. 500–700 are brandbook values; others derived in OKLCH at the brand hue."
+    },
+    "synapse-800": {
+      "$type": "color",
+      "$value": "#722D8F",
+      "$description": "Synapse (violet) ramp. 500–700 are brandbook values; others derived in OKLCH at the brand hue."
+    },
+    "synapse-900": {
+      "$type": "color",
+      "$value": "#501A67",
+      "$description": "Synapse (violet) ramp. 500–700 are brandbook values; others derived in OKLCH at the brand hue."
+    },
+    "synapse-950": {
+      "$type": "color",
+      "$value": "#360D47",
+      "$description": "Synapse (violet) ramp. 500–700 are brandbook values; others derived in OKLCH at the brand hue."
+    },
+    "signal-50": {
+      "$type": "color",
+      "$value": "#EFF6FF",
+      "$description": "Signal (blue) ramp. 500–700 are brandbook values; others derived in OKLCH at the brand hue."
+    },
+    "signal-100": {
+      "$type": "color",
+      "$value": "#DAE9FE",
+      "$description": "Signal (blue) ramp. 500–700 are brandbook values; others derived in OKLCH at the brand hue."
+    },
+    "signal-200": {
+      "$type": "color",
+      "$value": "#B4D4FD",
+      "$description": "Signal (blue) ramp. 500–700 are brandbook values; others derived in OKLCH at the brand hue."
+    },
+    "signal-300": {
+      "$type": "color",
+      "$value": "#88BAFC",
+      "$description": "Signal (blue) ramp. 500–700 are brandbook values; others derived in OKLCH at the brand hue."
+    },
+    "signal-400": {
+      "$type": "color",
+      "$value": "#54A0FE",
+      "$description": "Signal (blue) ramp. 500–700 are brandbook values; others derived in OKLCH at the brand hue."
+    },
+    "signal-500": {
+      "$type": "color",
+      "$value": "#0082FB",
+      "$description": "Brandbook base. Signal (blue) ramp. 500–700 are brandbook values; others derived in OKLCH at the brand hue."
+    },
+    "signal-600": {
+      "$type": "color",
+      "$value": "#057ED8",
+      "$description": "Brandbook matiz. Signal (blue) ramp. 500–700 are brandbook values; others derived in OKLCH at the brand hue."
+    },
+    "signal-700": {
+      "$type": "color",
+      "$value": "#0B6CA8",
+      "$description": "Brandbook matiz. Signal (blue) ramp. 500–700 are brandbook values; others derived in OKLCH at the brand hue."
+    },
+    "signal-800": {
+      "$type": "color",
+      "$value": "#054F7D",
+      "$description": "Signal (blue) ramp. 500–700 are brandbook values; others derived in OKLCH at the brand hue."
+    },
+    "signal-900": {
+      "$type": "color",
+      "$value": "#003455",
+      "$description": "Signal (blue) ramp. 500–700 are brandbook values; others derived in OKLCH at the brand hue."
+    },
+    "signal-950": {
+      "$type": "color",
+      "$value": "#001F37",
+      "$description": "Signal (blue) ramp. 500–700 are brandbook values; others derived in OKLCH at the brand hue."
+    }
+  },
+  "spacing": {
+    "space-0": {
+      "$type": "dimension",
+      "$value": "0px",
+      "$description": "Reset."
+    },
+    "space-0.5": {
+      "$type": "dimension",
+      "$value": "2px",
+      "$description": "Hairline gaps, icon nudges."
+    },
+    "space-1": {
+      "$type": "dimension",
+      "$value": "4px",
+      "$description": "Base unit. Icon-to-label gap in compact controls."
+    },
+    "space-2": {
+      "$type": "dimension",
+      "$value": "8px",
+      "$description": "Icon-to-label gap; tight stacks."
+    },
+    "space-3": {
+      "$type": "dimension",
+      "$value": "12px",
+      "$description": "Control inner padding (vertical); chip padding."
+    },
+    "space-4": {
+      "$type": "dimension",
+      "$value": "16px",
+      "$description": "Default gap; card padding on mobile; mobile gutter."
+    },
+    "space-5": {
+      "$type": "dimension",
+      "$value": "20px",
+      "$description": "Control inner padding (horizontal, lg)."
+    },
+    "space-6": {
+      "$type": "dimension",
+      "$value": "24px",
+      "$description": "Card padding; desktop grid gutter."
+    },
+    "space-8": {
+      "$type": "dimension",
+      "$value": "32px",
+      "$description": "Panel padding; gap between related blocks."
+    },
+    "space-10": {
+      "$type": "dimension",
+      "$value": "40px",
+      "$description": "Gap between card groups."
+    },
+    "space-12": {
+      "$type": "dimension",
+      "$value": "48px",
+      "$description": "Section padding on mobile."
+    },
+    "space-16": {
+      "$type": "dimension",
+      "$value": "64px",
+      "$description": "Gap between sections inside a page."
+    },
+    "space-20": {
+      "$type": "dimension",
+      "$value": "80px",
+      "$description": "Section padding (tablet)."
+    },
+    "space-24": {
+      "$type": "dimension",
+      "$value": "96px",
+      "$description": "Section padding (desktop)."
+    },
+    "space-32": {
+      "$type": "dimension",
+      "$value": "128px",
+      "$description": "Hero padding; campaign whitespace."
+    }
+  },
+  "radius": {
+    "radius-xs": {
+      "$type": "dimension",
+      "$value": "4px",
+      "$description": "Badges, checkboxes, kbd, tags."
+    },
+    "radius-sm": {
+      "$type": "dimension",
+      "$value": "6px",
+      "$description": "Buttons (sm), inputs, menu items."
+    },
+    "radius-md": {
+      "$type": "dimension",
+      "$value": "8px",
+      "$description": "Buttons (md/lg), tabs, tooltips."
+    },
+    "radius-lg": {
+      "$type": "dimension",
+      "$value": "12px",
+      "$description": "Cards, panels, popovers, dialogs."
+    },
+    "radius-xl": {
+      "$type": "dimension",
+      "$value": "16px",
+      "$description": "Feature cards, media, hero panels."
+    },
+    "radius-2xl": {
+      "$type": "dimension",
+      "$value": "24px",
+      "$description": "App icon tiles and large campaign frames."
+    },
+    "radius-full": {
+      "$type": "dimension",
+      "$value": "9999px",
+      "$description": "Pills, avatars, switches, status dots."
+    }
+  },
+  "fontFamily": {
+    "display": {
+      "$type": "fontFamily",
+      "$value": "\"Agrandir\", \"Geist\", \"Helvetica Neue\", Arial, sans-serif"
+    },
+    "grand": {
+      "$type": "fontFamily",
+      "$value": "\"Agrandir Grand\", \"Agrandir\", \"Geist\", \"Helvetica Neue\", Arial, sans-serif"
+    },
+    "wide": {
+      "$type": "fontFamily",
+      "$value": "\"Agrandir Wide\", \"Agrandir\", \"Geist\", \"Helvetica Neue\", Arial, sans-serif"
+    },
+    "narrow": {
+      "$type": "fontFamily",
+      "$value": "\"Agrandir Narrow\", \"Agrandir\", \"Geist\", \"Helvetica Neue\", Arial, sans-serif"
+    },
+    "tight": {
+      "$type": "fontFamily",
+      "$value": "\"Agrandir Tight\", \"Agrandir\", \"Geist\", \"Helvetica Neue\", Arial, sans-serif"
+    },
+    "sans": {
+      "$type": "fontFamily",
+      "$value": "\"Geist\", \"Helvetica Neue\", Arial, sans-serif"
+    },
+    "mono": {
+      "$type": "fontFamily",
+      "$value": "\"Geist Mono\", ui-monospace, \"SF Mono\", Menlo, monospace"
+    }
+  },
+  "duration": {
+    "duration-instant": {
+      "$type": "duration",
+      "$value": "80ms",
+      "$description": "Press feedback, toggles."
+    },
+    "duration-fast": {
+      "$type": "duration",
+      "$value": "140ms",
+      "$description": "Hover, focus, color changes."
+    },
+    "duration-base": {
+      "$type": "duration",
+      "$value": "220ms",
+      "$description": "Menus, tabs, small layout shifts."
+    },
+    "duration-slow": {
+      "$type": "duration",
+      "$value": "360ms",
+      "$description": "Dialogs, drawers, page sections."
+    }
+  },
+  "typography": {
+    "type-hero": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{fontFamily.wide}",
+        "fontSize": "96px",
+        "fontWeight": 300,
+        "lineHeight": 0.95,
+        "letterSpacing": "-0.03em"
+      },
+      "$description": "Agrandir Wide Light. One hero statement per page; ≤6 words. 56px under 768px."
+    },
+    "type-impact": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{fontFamily.grand}",
+        "fontSize": "72px",
+        "fontWeight": 800,
+        "lineHeight": 0.95,
+        "letterSpacing": "-0.02em"
+      },
+      "$description": "Agrandir Grand Heavy. Campaign headlines and covers; ≤4 words. 44px under 768px."
+    },
+    "type-display": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{fontFamily.display}",
+        "fontSize": "56px",
+        "fontWeight": 400,
+        "lineHeight": 1,
+        "letterSpacing": "-0.02em"
+      },
+      "$description": "Agrandir Regular. Section openers and landing headlines. 40px under 768px."
+    },
+    "type-h1": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{fontFamily.display}",
+        "fontSize": "40px",
+        "fontWeight": 400,
+        "lineHeight": 1.1,
+        "letterSpacing": "-0.015em"
+      },
+      "$description": "Agrandir Regular. Page titles in product and docs. 32px under 768px."
+    },
+    "type-h2": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{fontFamily.display}",
+        "fontSize": "28px",
+        "fontWeight": 700,
+        "lineHeight": 1.2,
+        "letterSpacing": "-0.01em"
+      },
+      "$description": "Agrandir Text Bold. Section titles."
+    },
+    "type-h3": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{fontFamily.display}",
+        "fontSize": "20px",
+        "fontWeight": 700,
+        "lineHeight": 1.3,
+        "letterSpacing": "-0.005em"
+      },
+      "$description": "Agrandir Text Bold. Card and panel titles."
+    },
+    "type-metric": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{fontFamily.tight}",
+        "fontSize": "64px",
+        "fontWeight": 400,
+        "lineHeight": 1,
+        "letterSpacing": "-0.02em"
+      },
+      "$description": "Agrandir Tight. KPI figures and big numbers in dashboards and reports."
+    },
+    "type-quote": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{fontFamily.display}",
+        "fontSize": "32px",
+        "fontWeight": 100,
+        "lineHeight": 1.25,
+        "letterSpacing": "-0.01em"
+      },
+      "$description": "Agrandir Thin Italic. Pull quotes and editorial accents; never body copy."
+    },
+    "type-stamp": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{fontFamily.wide}",
+        "fontSize": "18px",
+        "fontWeight": 900,
+        "lineHeight": 1,
+        "letterSpacing": "0.02em"
+      },
+      "$description": "Agrandir Wide Black Italic, uppercase. Seals, campaign CTAs and stickers (brandbook: sellos)."
+    },
+    "type-overline": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{fontFamily.narrow}",
+        "fontSize": "14px",
+        "fontWeight": 400,
+        "lineHeight": 1.2,
+        "letterSpacing": "0.06em"
+      },
+      "$description": "Agrandir Narrow, uppercase. Kickers in campaigns and decks."
+    },
+    "type-lead": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{fontFamily.sans}",
+        "fontSize": "20px",
+        "fontWeight": 400,
+        "lineHeight": "30px",
+        "letterSpacing": "-0.01em"
+      },
+      "$description": "Geist. Intro paragraph under a display headline."
+    },
+    "type-body": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{fontFamily.sans}",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "lineHeight": "24px",
+        "letterSpacing": "0"
+      },
+      "$description": "Geist. Default body copy."
+    },
+    "type-body-sm": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{fontFamily.sans}",
+        "fontSize": "14px",
+        "fontWeight": 400,
+        "lineHeight": "20px",
+        "letterSpacing": "0"
+      },
+      "$description": "Geist. Dense UI copy, table cells, helper text."
+    },
+    "type-label": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{fontFamily.sans}",
+        "fontSize": "14px",
+        "fontWeight": 500,
+        "lineHeight": "20px",
+        "letterSpacing": "0"
+      },
+      "$description": "Geist Medium. Form labels, buttons, tabs, nav."
+    },
+    "type-caption": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{fontFamily.sans}",
+        "fontSize": "12px",
+        "fontWeight": 400,
+        "lineHeight": "16px",
+        "letterSpacing": "0.01em"
+      },
+      "$description": "Geist. Captions, timestamps, footnotes."
+    },
+    "type-eyebrow": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{fontFamily.mono}",
+        "fontSize": "12px",
+        "fontWeight": 500,
+        "lineHeight": "16px",
+        "letterSpacing": "0.12em"
+      },
+      "$description": "Geist Mono Medium, uppercase. Section eyebrows above headings."
+    },
+    "type-code": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{fontFamily.mono}",
+        "fontSize": "13px",
+        "fontWeight": 400,
+        "lineHeight": "20px",
+        "letterSpacing": "0"
+      },
+      "$description": "Geist Mono. Code, CLI, IDs, API keys."
+    },
+    "type-data": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{fontFamily.mono}",
+        "fontSize": "14px",
+        "fontWeight": 500,
+        "lineHeight": "20px",
+        "letterSpacing": "0"
+      },
+      "$description": "Geist Mono Medium, tabular. Numbers in tables and live data."
+    }
+  }
+}

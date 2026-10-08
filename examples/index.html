@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="es" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AxonCore · Design System showcase</title>
+  <link rel="icon" href="../assets/favicon/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../dist/css/axoncore.css">
+  <style>
+    body { margin: 0; }
+    .wrap { max-width: var(--container-max); margin: 0 auto; padding: 0 var(--space-6); }
+    .nav { position: sticky; top: 0; z-index: var(--z-sticky); background: var(--bg-glass); backdrop-filter: blur(var(--blur-glass)); -webkit-backdrop-filter: blur(var(--blur-glass)); border-bottom: 1px solid var(--border-subtle); }
+    .nav .wrap { display: flex; align-items: center; justify-content: space-between; height: 64px; gap: var(--space-4); }
+    .nav-links { display: flex; gap: var(--space-1); }
+    .hero { background: var(--gradient-core); padding: var(--space-32) 0 var(--space-24); }
+    [data-theme="light"] .hero { background: var(--bg-canvas); }
+    .hero h1 { margin: var(--space-4) 0 var(--space-6); max-width: 12ch; }
+    .hero p { max-width: 56ch; margin: 0 0 var(--space-8); color: var(--text-secondary); }
+    .row { display: flex; gap: var(--space-3); flex-wrap: wrap; align-items: center; }
+    section { padding: var(--space-16) 0; }
+    .grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: var(--space-6); }
+    .span-4 { grid-column: span 4; } .span-6 { grid-column: span 6; } .span-8 { grid-column: span 8; } .span-12 { grid-column: span 12; }
+    @media (max-width: 1023px) { .span-4, .span-6, .span-8 { grid-column: span 12; } .hero { padding: var(--space-20) 0 var(--space-16); } }
+    .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--space-6); }
+    @media (max-width: 767px) { .stats { grid-template-columns: 1fr; } .nav-links { display: none; } .wrap { padding: 0 var(--space-4); } }
+    .stack { display: flex; flex-direction: column; gap: var(--space-4); }
+    .section-head { display: flex; flex-direction: column; gap: var(--space-3); margin-bottom: var(--space-10); }
+    .section-head h2 { margin: 0; }
+    .footer { border-top: 1px solid var(--border-subtle); padding: var(--space-10) 0; color: var(--text-muted); }
+  </style>
+</head>
+<body class="ax-root">
+  <div id="app"></div>
+  <!-- React 18.3.1 pinned. Swap for your bundler import in production. -->
+  <script src="https://cdn.jsdelivr.net/npm/react@18.3.1/umd/react.production.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/react-dom@18.3.1/umd/react-dom.production.min.js"></script>
+  <script src="../dist/react/axoncore.umd.js"></script>
+  <script>
+    var A = window.AxonCore, h = React.createElement;
+    function Icon(d) { return h("svg", { viewBox: "0 0 16 16", "aria-hidden": true }, h("path", { d: d, fill: "none", stroke: "currentColor", strokeWidth: 1.5, strokeLinecap: "round", strokeLinejoin: "round" })); }
+    var arrow = Icon("M3 8h10M9 4l4 4-4 4");
+
+    function App() {
+      var th = React.useState(document.documentElement.dataset.theme);
+      function flip() { var n = th[0] === "dark" ? "light" : "dark"; document.documentElement.dataset.theme = n; th[1](n); }
+      return h(React.Fragment, null,
+        h("header", { className: "nav" }, h("div", { className: "wrap" },
+          h(A.Logo, { lockup: "vertical", height: 28 }),
+          h("nav", { className: "nav-links" },
+            ["Plataforma", "Soluciones", "Docs", "Precios"].map(function (l) { return h(A.Button, { key: l, variant: "ghost", size: "sm" }, l); })),
+          h("div", { className: "row" },
+            h(A.Button, { variant: "ghost", size: "sm", onClick: flip }, th[0] === "dark" ? "Modo claro" : "Modo oscuro"),
+            h(A.Button, { variant: "primary", size: "sm" }, "Hablar con ventas")))),
+
+        h("section", { className: "hero" }, h("div", { className: "wrap" },
+          h(A.Badge, { tone: "synapse", dot: true }, "AI-First Platform"),
+          h("h1", { className: "type-hero" }, "Inteligencia, conectada."),
+          h("p", { className: "type-lead" }, "AxonCore integra datos, modelos y equipos en una sola capa operativa. Despliega IA en producción con trazabilidad completa."),
+          h("div", { className: "row" },
+            h(A.Button, { variant: "signal", size: "lg", iconEnd: arrow }, "Solicitar demo"),
+            h(A.Button, { variant: "secondary", size: "lg" }, "Ver arquitectura")))),
+
+        h(A.SignalLine, { live: true }),
+
+        h("section", null, h("div", { className: "wrap" },
+          h("div", { className: "stats" },
+            h(A.Stat, { label: "Uptime 90 días", value: "99.98%", delta: "0.02 pts", caption: "vs. trimestre anterior", size: "lg" }),
+            h(A.Stat, { label: "Latencia p95", value: "142 ms", delta: "18%", trend: "up", caption: "más rápida", size: "lg" }),
+            h(A.Stat, { label: "Coste por inferencia", value: "$0.004", delta: "6%", trend: "down", caption: "revisar región EU", size: "lg" })))),
+
+        h("section", null, h("div", { className: "wrap" },
+          h("div", { className: "section-head" }, h("span", { className: "type-eyebrow", style: { color: "var(--text-muted)" } }, "Plataforma / 01"), h("h2", { className: "type-display" }, "Tres capas. Un núcleo.")),
+          h("div", { className: "grid" },
+            h(A.Card, { className: "span-4", variant: "signal", eyebrow: "Connect", title: "Integración sin fricción", description: "Más de 200 conectores versionados. Cada flujo es observable y reversible.", interactive: true }),
+            h(A.Card, { className: "span-4", eyebrow: "Reason", title: "Modelos orquestados", description: "Enruta cada petición al modelo óptimo por coste, latencia y precisión.", interactive: true }),
+            h(A.Card, { className: "span-4", variant: "glass", eyebrow: "Operate", title: "Gobierno nativo", description: "Auditoría, permisos y trazabilidad de extremo a extremo.", interactive: true })))),
+
+        h("section", null, h("div", { className: "wrap grid" },
+          h("div", { className: "span-8 stack" },
+            h(A.Tabs, { items: [{ value: "p", label: "Pipelines" }, { value: "m", label: "Modelos" }, { value: "l", label: "Logs" }], "aria-label": "Vista" }),
+            h(A.Table, { caption: "Estado de pipelines", columns: [
+                { key: "name", label: "Pipeline" },
+                { key: "status", label: "Estado", render: function (r) { return h(A.Badge, { tone: r.tone, live: r.tone === "pulse", dot: r.tone !== "pulse" }, r.status); } },
+                { key: "lat", label: "p95", numeric: true },
+                { key: "rps", label: "RPS", numeric: true }],
+              rows: [
+                { id: 1, name: "ingest-crm", status: "En vivo", tone: "pulse", lat: "98 ms", rps: "3.2k" },
+                { id: 2, name: "rag-support", status: "Saludable", tone: "success", lat: "142 ms", rps: "1.1k" },
+                { id: 3, name: "forecast-eu", status: "Degradado", tone: "warning", lat: "410 ms", rps: "640" },
+                { id: 4, name: "batch-legacy", status: "Fallido", tone: "danger", lat: "—", rps: "0" }] })),
+          h("div", { className: "span-4 stack" },
+            h(A.Alert, { tone: "ai", title: "Resumen generado por IA" }, "forecast-eu supera el umbral de latencia desde las 14:02. Causa probable: saturación del nodo eu-west-3."),
+            h(A.Alert, { tone: "danger", title: "batch-legacy detenido" }, "3 reintentos fallidos. Revisa las credenciales del origen."),
+            h(A.Card, { title: "Nuevo workspace" },
+              h(A.TextField, { label: "Nombre", placeholder: "core-production", hint: "Minúsculas y guiones." }),
+              h(A.TextField, { label: "Región", defaultValue: "eu-central-9", error: "Región no disponible." }),
+              h(A.Checkbox, { label: "Activar auditoría", defaultChecked: true }),
+              h(A.Switch, { label: "Despliegue continuo", defaultChecked: true }),
+              h("div", { className: "row" }, h(A.Button, { variant: "primary" }, "Crear"), h(A.Button, { variant: "ghost" }, "Cancelar"), h(A.Button, { variant: "secondary", disabled: true }, "Disabled")))))),
+
+        h("section", null, h("div", { className: "wrap stack" },
+          h("p", { className: "type-quote", style: { margin: 0, maxWidth: "24ch" } }, "La complejidad, hecha legible."),
+          h("div", { className: "row" }, h("span", { className: "type-stamp", style: { color: "var(--tone-pulse)" } }, "AI-First"), h("span", { className: "type-overline", style: { color: "var(--text-muted)" } }, "Caso de estudio · Fintech")),
+          h("p", { className: "type-impact", style: { margin: 0 } }, "Core ready."),
+          h("code", { className: "type-code", style: { color: "var(--text-secondary)" } }, "$ axon deploy --model core-7b --region eu-west-3"))),
+
+        h("footer", { className: "footer" }, h("div", { className: "wrap row", style: { justifyContent: "space-between" } },
+          h(A.Logo, { lockup: "isotype", height: 24, tone: "mono" }),
+          h("span", { className: "type-caption" }, "© 2026 AxonCore. Precisión, conectividad, claridad."))));
+    }
+    ReactDOM.createRoot(document.getElementById("app")).render(h(App));
+  </script>
+</body>
+</html>

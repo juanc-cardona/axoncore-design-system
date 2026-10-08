@@ -1,0 +1,1225 @@
+{
+  "name": "AxonCore",
+  "version": 1,
+  "meta": {
+    "source": "AxonCore brandbook (elmundodejoella, 2025) + AxonCore Design System v1.0",
+    "updated": "2026-10-08"
+  },
+  "color": {
+    "themes": [
+      {
+        "id": "dark",
+        "name": "Dark · Core"
+      },
+      {
+        "id": "light",
+        "name": "Light"
+      }
+    ],
+    "tokens": [
+      {
+        "name": "brand-black",
+        "value": "#000000",
+        "usage": "Brandbook 03. Axon Black: the brand's ground. Canvas of the dark theme; ink of the light theme."
+      },
+      {
+        "name": "brand-graphite",
+        "value": "#3A3A3A",
+        "usage": "Brandbook 02. Graphite: secondary dark for print and supporting surfaces."
+      },
+      {
+        "name": "brand-mist",
+        "value": "#F6F6F6",
+        "usage": "Brandbook 01. Mist: light ground for print and light surfaces."
+      },
+      {
+        "name": "brand-white",
+        "value": "#FFFFFF",
+        "usage": "Brandbook 01b. Pure white: wordmark on black, light canvas."
+      },
+      {
+        "name": "brand-pulse",
+        "value": "#FC1C70",
+        "usage": "Brandbook 04. Axon Pulse (magenta): first stop of the signal gradient; energy, live states."
+      },
+      {
+        "name": "brand-synapse",
+        "value": "#C04AE1",
+        "usage": "Brandbook 05. Axon Synapse (violet): middle stop of the signal gradient; AI and intelligence."
+      },
+      {
+        "name": "brand-signal",
+        "value": "#0082FB",
+        "usage": "Brandbook 06. Axon Signal (blue): last stop of the signal gradient; interaction, data, primary accent."
+      },
+      {
+        "name": "ink-1000",
+        "value": "#000000",
+        "usage": "Brand black. Dark canvas; light-theme ink."
+      },
+      {
+        "name": "ink-950",
+        "value": "#0A0A0A",
+        "usage": "Dark theme surface-1 (sections, sidebars)."
+      },
+      {
+        "name": "ink-900",
+        "value": "#141414",
+        "usage": "Brandbook matiz. Dark theme raised surfaces (cards)."
+      },
+      {
+        "name": "ink-850",
+        "value": "#1E1E1E",
+        "usage": "Brandbook matiz. Dark theme overlays (menus, dialogs); dividers."
+      },
+      {
+        "name": "ink-800",
+        "value": "#2A2A2A",
+        "usage": "Dark theme default borders around cards and panels."
+      },
+      {
+        "name": "ink-750",
+        "value": "#3A3A3A",
+        "usage": "Brand graphite. Pressed neutral fills; light theme secondary text."
+      },
+      {
+        "name": "ink-700",
+        "value": "#3F3F3F",
+        "usage": "Brandbook matiz. Light theme secondary text (9.7:1 on mist)."
+      },
+      {
+        "name": "ink-650",
+        "value": "#494949",
+        "usage": "Brandbook matiz. Hover on dark neutral fills."
+      },
+      {
+        "name": "ink-550",
+        "value": "#5C5C5C",
+        "usage": "Disabled text in the dark theme."
+      },
+      {
+        "name": "ink-500",
+        "value": "#6B6B6B",
+        "usage": "Control borders in the dark theme (3.9:1 on black); muted text in light (5.3:1 on white)."
+      },
+      {
+        "name": "ink-400",
+        "value": "#8C8C8C",
+        "usage": "Muted text in the dark theme (6.2:1 on black); control borders in light (3.4:1 on white)."
+      },
+      {
+        "name": "ink-350",
+        "value": "#A1A1A1",
+        "usage": "Secondary text in the dark theme (8.1:1 on black); disabled text in light."
+      },
+      {
+        "name": "ink-300",
+        "value": "#B5B5B5",
+        "usage": "Disabled fills and icons on light."
+      },
+      {
+        "name": "ink-200",
+        "value": "#D4D6D8",
+        "usage": "Brandbook matiz. Light theme borders; pressed state of light buttons."
+      },
+      {
+        "name": "ink-150",
+        "value": "#E6E7E8",
+        "usage": "Brandbook matiz. Light theme dividers and sunken fills."
+      },
+      {
+        "name": "ink-100",
+        "value": "#F6F6F6",
+        "usage": "Brand mist. Light surface-1; primary text in the dark theme (19.4:1 on black)."
+      },
+      {
+        "name": "ink-0",
+        "value": "#FFFFFF",
+        "usage": "White. Light canvas and raised surfaces."
+      },
+      {
+        "name": "pulse-50",
+        "value": "#FFF1F3",
+        "usage": "Pulse (magenta) ramp. 500–700 are brandbook values; others derived in OKLCH at the brand hue."
+      },
+      {
+        "name": "pulse-100",
+        "value": "#FFDEE3",
+        "usage": "Pulse (magenta) ramp. 500–700 are brandbook values; others derived in OKLCH at the brand hue."
+      },
+      {
+        "name": "pulse-200",
+        "value": "#FFBCC7",
+        "usage": "Pulse (magenta) ramp. 500–700 are brandbook values; others derived in OKLCH at the brand hue."
+      },
+      {
+        "name": "pulse-300",
+        "value": "#FE92A7",
+        "usage": "Pulse (magenta) ramp. 500–700 are brandbook values; others derived in OKLCH at the brand hue."
+      },
+      {
+        "name": "pulse-400",
+        "value": "#FC6088",
+        "usage": "Pulse (magenta) ramp. 500–700 are brandbook values; others derived in OKLCH at the brand hue."
+      },
+      {
+        "name": "pulse-500",
+        "value": "#FC1C70",
+        "usage": "Brandbook base. Pulse (magenta) ramp. 500–700 are brandbook values; others derived in OKLCH at the brand hue."
+      },
+      {
+        "name": "pulse-600",
+        "value": "#DD1969",
+        "usage": "Brandbook matiz. Pulse (magenta) ramp. 500–700 are brandbook values; others derived in OKLCH at the brand hue."
+      },
+      {
+        "name": "pulse-700",
+        "value": "#C11765",
+        "usage": "Brandbook matiz. Pulse (magenta) ramp. 500–700 are brandbook values; others derived in OKLCH at the brand hue."
+      },
+      {
+        "name": "pulse-800",
+        "value": "#94024A",
+        "usage": "Pulse (magenta) ramp. 500–700 are brandbook values; others derived in OKLCH at the brand hue."
+      },
+      {
+        "name": "pulse-900",
+        "value": "#670032",
+        "usage": "Pulse (magenta) ramp. 500–700 are brandbook values; others derived in OKLCH at the brand hue."
+      },
+      {
+        "name": "pulse-950",
+        "value": "#45001F",
+        "usage": "Pulse (magenta) ramp. 500–700 are brandbook values; others derived in OKLCH at the brand hue."
+      },
+      {
+        "name": "synapse-50",
+        "value": "#FCF1FF",
+        "usage": "Synapse (violet) ramp. 500–700 are brandbook values; others derived in OKLCH at the brand hue."
+      },
+      {
+        "name": "synapse-100",
+        "value": "#F7DEFF",
+        "usage": "Synapse (violet) ramp. 500–700 are brandbook values; others derived in OKLCH at the brand hue."
+      },
+      {
+        "name": "synapse-200",
+        "value": "#EEBCFE",
+        "usage": "Synapse (violet) ramp. 500–700 are brandbook values; others derived in OKLCH at the brand hue."
+      },
+      {
+        "name": "synapse-300",
+        "value": "#E392FC",
+        "usage": "Synapse (violet) ramp. 500–700 are brandbook values; others derived in OKLCH at the brand hue."
+      },
+      {
+        "name": "synapse-400",
+        "value": "#D567F5",
+        "usage": "Synapse (violet) ramp. 500–700 are brandbook values; others derived in OKLCH at the brand hue."
+      },
+      {
+        "name": "synapse-500",
+        "value": "#C04AE1",
+        "usage": "Brandbook base. Synapse (violet) ramp. 500–700 are brandbook values; others derived in OKLCH at the brand hue."
+      },
+      {
+        "name": "synapse-600",
+        "value": "#AC46CE",
+        "usage": "Brandbook matiz. Synapse (violet) ramp. 500–700 are brandbook values; others derived in OKLCH at the brand hue."
+      },
+      {
+        "name": "synapse-700",
+        "value": "#9642BA",
+        "usage": "Brandbook matiz. Synapse (violet) ramp. 500–700 are brandbook values; others derived in OKLCH at the brand hue."
+      },
+      {
+        "name": "synapse-800",
+        "value": "#722D8F",
+        "usage": "Synapse (violet) ramp. 500–700 are brandbook values; others derived in OKLCH at the brand hue."
+      },
+      {
+        "name": "synapse-900",
+        "value": "#501A67",
+        "usage": "Synapse (violet) ramp. 500–700 are brandbook values; others derived in OKLCH at the brand hue."
+      },
+      {
+        "name": "synapse-950",
+        "value": "#360D47",
+        "usage": "Synapse (violet) ramp. 500–700 are brandbook values; others derived in OKLCH at the brand hue."
+      },
+      {
+        "name": "signal-50",
+        "value": "#EFF6FF",
+        "usage": "Signal (blue) ramp. 500–700 are brandbook values; others derived in OKLCH at the brand hue."
+      },
+      {
+        "name": "signal-100",
+        "value": "#DAE9FE",
+        "usage": "Signal (blue) ramp. 500–700 are brandbook values; others derived in OKLCH at the brand hue."
+      },
+      {
+        "name": "signal-200",
+        "value": "#B4D4FD",
+        "usage": "Signal (blue) ramp. 500–700 are brandbook values; others derived in OKLCH at the brand hue."
+      },
+      {
+        "name": "signal-300",
+        "value": "#88BAFC",
+        "usage": "Signal (blue) ramp. 500–700 are brandbook values; others derived in OKLCH at the brand hue."
+      },
+      {
+        "name": "signal-400",
+        "value": "#54A0FE",
+        "usage": "Signal (blue) ramp. 500–700 are brandbook values; others derived in OKLCH at the brand hue."
+      },
+      {
+        "name": "signal-500",
+        "value": "#0082FB",
+        "usage": "Brandbook base. Signal (blue) ramp. 500–700 are brandbook values; others derived in OKLCH at the brand hue."
+      },
+      {
+        "name": "signal-600",
+        "value": "#057ED8",
+        "usage": "Brandbook matiz. Signal (blue) ramp. 500–700 are brandbook values; others derived in OKLCH at the brand hue."
+      },
+      {
+        "name": "signal-700",
+        "value": "#0B6CA8",
+        "usage": "Brandbook matiz. Signal (blue) ramp. 500–700 are brandbook values; others derived in OKLCH at the brand hue."
+      },
+      {
+        "name": "signal-800",
+        "value": "#054F7D",
+        "usage": "Signal (blue) ramp. 500–700 are brandbook values; others derived in OKLCH at the brand hue."
+      },
+      {
+        "name": "signal-900",
+        "value": "#003455",
+        "usage": "Signal (blue) ramp. 500–700 are brandbook values; others derived in OKLCH at the brand hue."
+      },
+      {
+        "name": "signal-950",
+        "value": "#001F37",
+        "usage": "Signal (blue) ramp. 500–700 are brandbook values; others derived in OKLCH at the brand hue."
+      },
+      {
+        "name": "bg-canvas",
+        "value": {
+          "dark": "{ink-1000}",
+          "light": "{ink-0}"
+        },
+        "usage": "Page background. Brand black in dark; white in light."
+      },
+      {
+        "name": "bg-surface",
+        "value": {
+          "dark": "{ink-950}",
+          "light": "{ink-100}"
+        },
+        "usage": "Sections, sidebars, alternating bands on the canvas."
+      },
+      {
+        "name": "bg-raised",
+        "value": {
+          "dark": "{ink-900}",
+          "light": "{ink-0}"
+        },
+        "usage": "Cards and panels on canvas or surface (pair with border-default and shadow-1)."
+      },
+      {
+        "name": "bg-overlay",
+        "value": {
+          "dark": "{ink-850}",
+          "light": "{ink-0}"
+        },
+        "usage": "Menus, popovers, dialogs (pair with shadow-3)."
+      },
+      {
+        "name": "bg-sunken",
+        "value": {
+          "dark": "{ink-1000}",
+          "light": "{ink-100}"
+        },
+        "usage": "Inputs, code wells, track of switches. Always with border-strong."
+      },
+      {
+        "name": "bg-inverse",
+        "value": {
+          "dark": "{ink-100}",
+          "light": "{ink-1000}"
+        },
+        "usage": "Inverted blocks: the primary button, toasts, high-emphasis chips."
+      },
+      {
+        "name": "bg-hover",
+        "value": {
+          "dark": "#FFFFFF0F",
+          "light": "#0000000A"
+        },
+        "usage": "Hover wash on neutral rows, ghost buttons and list items."
+      },
+      {
+        "name": "bg-selected",
+        "value": {
+          "dark": "#0082FB26",
+          "light": "#0082FB1A"
+        },
+        "usage": "Selected rows, active nav item, chosen option."
+      },
+      {
+        "name": "bg-glass",
+        "value": {
+          "dark": "#14141499",
+          "light": "#FFFFFFB3"
+        },
+        "usage": "Glass panels over imagery or gradient; always with blur-glass and border-subtle."
+      },
+      {
+        "name": "text-primary",
+        "value": {
+          "dark": "{ink-100}",
+          "light": "{ink-1000}"
+        },
+        "usage": "Body and headings on bg-canvas, bg-surface, bg-raised, bg-overlay (≥15:1 both themes)."
+      },
+      {
+        "name": "text-secondary",
+        "value": {
+          "dark": "{ink-350}",
+          "light": "{ink-700}"
+        },
+        "usage": "Supporting copy and descriptions on every bg-* surface (≥6.4:1 dark, ≥9.7:1 light)."
+      },
+      {
+        "name": "text-muted",
+        "value": {
+          "dark": "{ink-400}",
+          "light": "{ink-500}"
+        },
+        "usage": "Captions, meta, placeholders on every bg-* surface (≥4.9:1 dark, ≥4.9:1 light)."
+      },
+      {
+        "name": "text-disabled",
+        "value": {
+          "dark": "{ink-550}",
+          "light": "{ink-350}"
+        },
+        "usage": "Disabled labels only (exempt from contrast minimums)."
+      },
+      {
+        "name": "text-inverse",
+        "value": {
+          "dark": "{ink-1000}",
+          "light": "{ink-0}"
+        },
+        "usage": "Text on bg-inverse (19:1+)."
+      },
+      {
+        "name": "text-link",
+        "value": {
+          "dark": "{signal-400}",
+          "light": "{signal-700}"
+        },
+        "usage": "Inline links on canvas and surfaces (7.8:1 dark on black, 5.2:1 light on mist)."
+      },
+      {
+        "name": "border-subtle",
+        "value": {
+          "dark": "{ink-850}",
+          "light": "{ink-150}"
+        },
+        "usage": "Hairline dividers inside cards and tables; decorative only."
+      },
+      {
+        "name": "border-default",
+        "value": {
+          "dark": "{ink-800}",
+          "light": "{ink-200}"
+        },
+        "usage": "Card, panel and table outlines; decorative only."
+      },
+      {
+        "name": "border-strong",
+        "value": {
+          "dark": "{ink-500}",
+          "light": "{ink-400}"
+        },
+        "usage": "Borders of interactive controls: inputs, checkboxes, outline buttons (≥3:1 on every surface)."
+      },
+      {
+        "name": "accent",
+        "value": {
+          "dark": "{brand-signal}",
+          "light": "{brand-signal}"
+        },
+        "usage": "Axon Signal blue: signal buttons, selected controls, focused data. Text on it is on-accent."
+      },
+      {
+        "name": "accent-hover",
+        "value": {
+          "dark": "{signal-400}",
+          "light": "{signal-400}"
+        },
+        "usage": "Hover fill for accent controls."
+      },
+      {
+        "name": "accent-pressed",
+        "value": {
+          "dark": "{signal-600}",
+          "light": "{signal-600}"
+        },
+        "usage": "Pressed fill for accent controls."
+      },
+      {
+        "name": "on-accent",
+        "value": {
+          "dark": "{ink-1000}",
+          "light": "{ink-1000}"
+        },
+        "usage": "Text and icons on accent, accent-hover and accent-pressed (5.6:1, 7.8:1, 5.0:1)."
+      },
+      {
+        "name": "focus-ring",
+        "value": {
+          "dark": "{signal-400}",
+          "light": "{brand-signal}"
+        },
+        "usage": "2px focus outline with 2px offset, on every surface (≥3:1)."
+      },
+      {
+        "name": "action-primary",
+        "value": {
+          "dark": "{ink-100}",
+          "light": "{ink-1000}"
+        },
+        "usage": "Primary button fill: monochrome by design (white on dark, black on light)."
+      },
+      {
+        "name": "action-primary-hover",
+        "value": {
+          "dark": "{ink-0}",
+          "light": "{ink-850}"
+        },
+        "usage": "Primary button hover fill."
+      },
+      {
+        "name": "action-primary-pressed",
+        "value": {
+          "dark": "{ink-200}",
+          "light": "{ink-750}"
+        },
+        "usage": "Primary button pressed fill."
+      },
+      {
+        "name": "on-action-primary",
+        "value": {
+          "dark": "{ink-1000}",
+          "light": "{ink-0}"
+        },
+        "usage": "Label on action-primary fills (≥10:1 in every state)."
+      },
+      {
+        "name": "tone-pulse",
+        "value": {
+          "dark": "{pulse-400}",
+          "light": "{pulse-700}"
+        },
+        "usage": "Pulse accent text and icons: live, real-time, energy highlights. On every bg-* surface (≥5.6:1 dark, ≥5.4:1 light)."
+      },
+      {
+        "name": "tone-synapse",
+        "value": {
+          "dark": "{synapse-400}",
+          "light": "{synapse-700}"
+        },
+        "usage": "Synapse accent text and icons: AI-generated content, models, intelligence (7.1:1 dark, 5.6:1 light)."
+      },
+      {
+        "name": "tone-signal",
+        "value": {
+          "dark": "{signal-400}",
+          "light": "{signal-700}"
+        },
+        "usage": "Signal accent text and icons: data, metrics, interactive hints."
+      },
+      {
+        "name": "tone-pulse-subtle",
+        "value": {
+          "dark": "#FC1C701F",
+          "light": "#FC1C7014"
+        },
+        "usage": "Pulse tinted background for badges and callouts."
+      },
+      {
+        "name": "tone-synapse-subtle",
+        "value": {
+          "dark": "#C04AE11F",
+          "light": "#C04AE114"
+        },
+        "usage": "Synapse tinted background for AI badges and callouts."
+      },
+      {
+        "name": "tone-signal-subtle",
+        "value": {
+          "dark": "#0082FB1F",
+          "light": "#0082FB14"
+        },
+        "usage": "Signal tinted background for info badges and callouts."
+      },
+      {
+        "name": "status-success",
+        "value": {
+          "dark": "#2FD49A",
+          "light": "#0B7A52"
+        },
+        "usage": "Success text/icon on canvas and surfaces (11:1 dark, 5.0:1 light). Always pair with an icon or word."
+      },
+      {
+        "name": "status-warning",
+        "value": {
+          "dark": "#F5B53D",
+          "light": "#8F5A00"
+        },
+        "usage": "Warning text/icon on canvas and surfaces (11.6:1 dark, 5.4:1 light). Always pair with an icon or word."
+      },
+      {
+        "name": "status-danger",
+        "value": {
+          "dark": "#FF6B47",
+          "light": "#C2340E"
+        },
+        "usage": "Error text/icon on canvas and surfaces (7.4:1 dark, 5.1:1 light). Orange-red, kept apart from Pulse magenta."
+      },
+      {
+        "name": "status-info",
+        "value": {
+          "dark": "{signal-400}",
+          "light": "{signal-700}"
+        },
+        "usage": "Informational text/icon."
+      },
+      {
+        "name": "status-success-subtle",
+        "value": {
+          "dark": "#2FD49A1F",
+          "light": "#0B7A5214"
+        },
+        "usage": "Success callout/badge background."
+      },
+      {
+        "name": "status-warning-subtle",
+        "value": {
+          "dark": "#F5B53D1F",
+          "light": "#8F5A0014"
+        },
+        "usage": "Warning callout/badge background."
+      },
+      {
+        "name": "status-danger-subtle",
+        "value": {
+          "dark": "#FF6B471F",
+          "light": "#C2340E14"
+        },
+        "usage": "Error callout/badge background."
+      }
+    ]
+  },
+  "type": {
+    "fonts": [
+      {
+        "family": "Geist",
+        "file": "fonts/Geist-Variable.woff2",
+        "weight": "100 900",
+        "style": "normal"
+      },
+      {
+        "family": "Geist Mono",
+        "file": "fonts/GeistMono-Variable.woff2",
+        "weight": "100 900",
+        "style": "normal"
+      }
+    ],
+    "fontsLicensed": [
+      {
+        "family": "Agrandir",
+        "file": "fonts/Agrandir-Regular.woff2",
+        "weight": "400",
+        "style": "normal"
+      },
+      {
+        "family": "Agrandir",
+        "file": "fonts/Agrandir-TextBold.woff2",
+        "weight": "700",
+        "style": "normal"
+      },
+      {
+        "family": "Agrandir",
+        "file": "fonts/Agrandir-ThinItalic.woff2",
+        "weight": "100",
+        "style": "italic"
+      },
+      {
+        "family": "Agrandir Grand",
+        "file": "fonts/Agrandir-GrandLight.woff2",
+        "weight": "300",
+        "style": "normal"
+      },
+      {
+        "family": "Agrandir Grand",
+        "file": "fonts/Agrandir-GrandHeavy.woff2",
+        "weight": "800",
+        "style": "normal"
+      },
+      {
+        "family": "Agrandir Wide",
+        "file": "fonts/Agrandir-WideLight.woff2",
+        "weight": "300",
+        "style": "normal"
+      },
+      {
+        "family": "Agrandir Wide",
+        "file": "fonts/Agrandir-WideBlackItalic.woff2",
+        "weight": "900",
+        "style": "italic"
+      },
+      {
+        "family": "Agrandir Narrow",
+        "file": "fonts/Agrandir-Narrow.woff2",
+        "weight": "400",
+        "style": "normal"
+      },
+      {
+        "family": "Agrandir Tight",
+        "file": "fonts/Agrandir-Tight.woff2",
+        "weight": "400",
+        "style": "normal"
+      }
+    ],
+    "families": {
+      "display": "\"Agrandir\", \"Geist\", \"Helvetica Neue\", Arial, sans-serif",
+      "grand": "\"Agrandir Grand\", \"Agrandir\", \"Geist\", \"Helvetica Neue\", Arial, sans-serif",
+      "wide": "\"Agrandir Wide\", \"Agrandir\", \"Geist\", \"Helvetica Neue\", Arial, sans-serif",
+      "narrow": "\"Agrandir Narrow\", \"Agrandir\", \"Geist\", \"Helvetica Neue\", Arial, sans-serif",
+      "tight": "\"Agrandir Tight\", \"Agrandir\", \"Geist\", \"Helvetica Neue\", Arial, sans-serif",
+      "sans": "\"Geist\", \"Helvetica Neue\", Arial, sans-serif",
+      "mono": "\"Geist Mono\", ui-monospace, \"SF Mono\", Menlo, monospace"
+    },
+    "groups": [
+      {
+        "name": "Display",
+        "family": "display",
+        "styles": [
+          {
+            "name": "type-hero",
+            "family": "wide",
+            "fontSize": "96px",
+            "lineHeight": 0.95,
+            "fontWeight": 300,
+            "letterSpacing": "-0.03em",
+            "sample": "Intelligence, wired in.",
+            "usage": "Agrandir Wide Light. One hero statement per page; ≤6 words. 56px under 768px."
+          },
+          {
+            "name": "type-impact",
+            "family": "grand",
+            "fontSize": "72px",
+            "lineHeight": 0.95,
+            "fontWeight": 800,
+            "letterSpacing": "-0.02em",
+            "sample": "Core ready.",
+            "usage": "Agrandir Grand Heavy. Campaign headlines and covers; ≤4 words. 44px under 768px."
+          },
+          {
+            "name": "type-display",
+            "fontSize": "56px",
+            "lineHeight": 1.0,
+            "fontWeight": 400,
+            "letterSpacing": "-0.02em",
+            "sample": "Systems that think ahead",
+            "usage": "Agrandir Regular. Section openers and landing headlines. 40px under 768px."
+          },
+          {
+            "name": "type-h1",
+            "fontSize": "40px",
+            "lineHeight": 1.1,
+            "fontWeight": 400,
+            "letterSpacing": "-0.015em",
+            "sample": "Deploy models in hours",
+            "usage": "Agrandir Regular. Page titles in product and docs. 32px under 768px."
+          },
+          {
+            "name": "type-h2",
+            "fontSize": "28px",
+            "lineHeight": 1.2,
+            "fontWeight": 700,
+            "letterSpacing": "-0.01em",
+            "sample": "Pipeline health",
+            "usage": "Agrandir Text Bold. Section titles."
+          },
+          {
+            "name": "type-h3",
+            "fontSize": "20px",
+            "lineHeight": 1.3,
+            "fontWeight": 700,
+            "letterSpacing": "-0.005em",
+            "sample": "Latency by region",
+            "usage": "Agrandir Text Bold. Card and panel titles."
+          },
+          {
+            "name": "type-metric",
+            "family": "tight",
+            "fontSize": "64px",
+            "lineHeight": 1.0,
+            "fontWeight": 400,
+            "letterSpacing": "-0.02em",
+            "sample": "99.98%",
+            "usage": "Agrandir Tight. KPI figures and big numbers in dashboards and reports."
+          },
+          {
+            "name": "type-quote",
+            "fontSize": "32px",
+            "lineHeight": 1.25,
+            "fontWeight": 100,
+            "fontStyle": "italic",
+            "letterSpacing": "-0.01em",
+            "sample": "Complexity, made legible.",
+            "usage": "Agrandir Thin Italic. Pull quotes and editorial accents; never body copy."
+          },
+          {
+            "name": "type-stamp",
+            "family": "wide",
+            "fontSize": "18px",
+            "lineHeight": 1.0,
+            "fontWeight": 900,
+            "fontStyle": "italic",
+            "letterSpacing": "0.02em",
+            "sample": "AI-FIRST",
+            "usage": "Agrandir Wide Black Italic, uppercase. Seals, campaign CTAs and stickers (brandbook: sellos)."
+          },
+          {
+            "name": "type-overline",
+            "family": "narrow",
+            "fontSize": "14px",
+            "lineHeight": 1.2,
+            "fontWeight": 400,
+            "letterSpacing": "0.06em",
+            "sample": "CASE STUDY · FINTECH",
+            "usage": "Agrandir Narrow, uppercase. Kickers in campaigns and decks."
+          }
+        ]
+      },
+      {
+        "name": "Text",
+        "family": "sans",
+        "styles": [
+          {
+            "name": "type-lead",
+            "fontSize": "20px",
+            "lineHeight": "30px",
+            "fontWeight": 400,
+            "letterSpacing": "-0.01em",
+            "sample": "AxonCore connects data, models and teams in a single operating layer.",
+            "usage": "Geist. Intro paragraph under a display headline."
+          },
+          {
+            "name": "type-body",
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "fontWeight": 400,
+            "sample": "Every integration is versioned, observable and reversible.",
+            "usage": "Geist. Default body copy."
+          },
+          {
+            "name": "type-body-sm",
+            "fontSize": "14px",
+            "lineHeight": "20px",
+            "fontWeight": 400,
+            "sample": "Last sync 2 minutes ago.",
+            "usage": "Geist. Dense UI copy, table cells, helper text."
+          },
+          {
+            "name": "type-label",
+            "fontSize": "14px",
+            "lineHeight": "20px",
+            "fontWeight": 500,
+            "sample": "Workspace name",
+            "usage": "Geist Medium. Form labels, buttons, tabs, nav."
+          },
+          {
+            "name": "type-caption",
+            "fontSize": "12px",
+            "lineHeight": "16px",
+            "fontWeight": 400,
+            "letterSpacing": "0.01em",
+            "sample": "Updated Oct 8, 2026",
+            "usage": "Geist. Captions, timestamps, footnotes."
+          }
+        ]
+      },
+      {
+        "name": "Mono",
+        "family": "mono",
+        "styles": [
+          {
+            "name": "type-eyebrow",
+            "fontSize": "12px",
+            "lineHeight": "16px",
+            "fontWeight": 500,
+            "letterSpacing": "0.12em",
+            "sample": "PLATFORM / 01",
+            "usage": "Geist Mono Medium, uppercase. Section eyebrows above headings."
+          },
+          {
+            "name": "type-code",
+            "fontSize": "13px",
+            "lineHeight": "20px",
+            "fontWeight": 400,
+            "sample": "axon deploy --model core-7b",
+            "usage": "Geist Mono. Code, CLI, IDs, API keys."
+          },
+          {
+            "name": "type-data",
+            "fontSize": "14px",
+            "lineHeight": "20px",
+            "fontWeight": 500,
+            "sample": "142 ms · 3.2k rps",
+            "usage": "Geist Mono Medium, tabular. Numbers in tables and live data."
+          }
+        ]
+      }
+    ]
+  },
+  "spacing": {
+    "note": "4px base grid. Layouts snap to 8px; 4px only inside components.",
+    "tokens": [
+      {
+        "name": "space-0",
+        "value": "0px",
+        "usage": "Reset."
+      },
+      {
+        "name": "space-0.5",
+        "value": "2px",
+        "usage": "Hairline gaps, icon nudges."
+      },
+      {
+        "name": "space-1",
+        "value": "4px",
+        "usage": "Base unit. Icon-to-label gap in compact controls."
+      },
+      {
+        "name": "space-2",
+        "value": "8px",
+        "usage": "Icon-to-label gap; tight stacks."
+      },
+      {
+        "name": "space-3",
+        "value": "12px",
+        "usage": "Control inner padding (vertical); chip padding."
+      },
+      {
+        "name": "space-4",
+        "value": "16px",
+        "usage": "Default gap; card padding on mobile; mobile gutter."
+      },
+      {
+        "name": "space-5",
+        "value": "20px",
+        "usage": "Control inner padding (horizontal, lg)."
+      },
+      {
+        "name": "space-6",
+        "value": "24px",
+        "usage": "Card padding; desktop grid gutter."
+      },
+      {
+        "name": "space-8",
+        "value": "32px",
+        "usage": "Panel padding; gap between related blocks."
+      },
+      {
+        "name": "space-10",
+        "value": "40px",
+        "usage": "Gap between card groups."
+      },
+      {
+        "name": "space-12",
+        "value": "48px",
+        "usage": "Section padding on mobile."
+      },
+      {
+        "name": "space-16",
+        "value": "64px",
+        "usage": "Gap between sections inside a page."
+      },
+      {
+        "name": "space-20",
+        "value": "80px",
+        "usage": "Section padding (tablet)."
+      },
+      {
+        "name": "space-24",
+        "value": "96px",
+        "usage": "Section padding (desktop)."
+      },
+      {
+        "name": "space-32",
+        "value": "128px",
+        "usage": "Hero padding; campaign whitespace."
+      }
+    ]
+  },
+  "radius": {
+    "note": "Soft but defined: 6–12px for UI, mirroring the rounded terminals of the isotype.",
+    "tokens": [
+      {
+        "name": "radius-xs",
+        "value": "4px",
+        "usage": "Badges, checkboxes, kbd, tags."
+      },
+      {
+        "name": "radius-sm",
+        "value": "6px",
+        "usage": "Buttons (sm), inputs, menu items."
+      },
+      {
+        "name": "radius-md",
+        "value": "8px",
+        "usage": "Buttons (md/lg), tabs, tooltips."
+      },
+      {
+        "name": "radius-lg",
+        "value": "12px",
+        "usage": "Cards, panels, popovers, dialogs."
+      },
+      {
+        "name": "radius-xl",
+        "value": "16px",
+        "usage": "Feature cards, media, hero panels."
+      },
+      {
+        "name": "radius-2xl",
+        "value": "24px",
+        "usage": "App icon tiles and large campaign frames."
+      },
+      {
+        "name": "radius-full",
+        "value": "9999px",
+        "usage": "Pills, avatars, switches, status dots."
+      }
+    ]
+  },
+  "shadow": {
+    "note": "Dark theme lifts with a top highlight plus deep shadow; light theme with soft shadow.",
+    "tokens": [
+      {
+        "name": "shadow-1",
+        "value": {
+          "dark": "inset 0 1px 0 0 #FFFFFF0A, 0 1px 2px 0 #00000099",
+          "light": "0 1px 2px 0 #0000000F, 0 0 0 1px #0000000A"
+        },
+        "usage": "Resting cards and raised panels."
+      },
+      {
+        "name": "shadow-2",
+        "value": {
+          "dark": "inset 0 1px 0 0 #FFFFFF0F, 0 8px 24px -8px #000000CC",
+          "light": "0 1px 2px 0 #0000000A, 0 8px 24px -8px #00000024"
+        },
+        "usage": "Hovered cards, dropdowns, sticky headers."
+      },
+      {
+        "name": "shadow-3",
+        "value": {
+          "dark": "inset 0 1px 0 0 #FFFFFF14, 0 24px 64px -16px #000000E6",
+          "light": "0 2px 4px 0 #0000000A, 0 24px 64px -16px #00000038"
+        },
+        "usage": "Dialogs, command palette, popovers."
+      },
+      {
+        "name": "shadow-signal",
+        "value": {
+          "dark": "0 0 0 1px #0082FB66, 0 0 24px -4px #0082FB80",
+          "light": "0 0 0 1px #0082FB4D, 0 0 24px -6px #0082FB59"
+        },
+        "usage": "Signal glow: AI-active elements and the focused hero input. Once per view."
+      }
+    ]
+  },
+  "gradient": {
+    "note": "The spectrum is a signal, not a wallpaper: ≤10% of any composition.",
+    "tokens": [
+      {
+        "name": "gradient-signal",
+        "value": "linear-gradient(90deg, #FC1C70 0%, #C04AE1 50%, #0082FB 100%)",
+        "usage": "The Axon spectrum (Pulse → Synapse → Signal). Isotype, 1–2px signal lines, small data highlights. Never behind body text."
+      },
+      {
+        "name": "gradient-signal-soft",
+        "value": "linear-gradient(90deg, #FC1C7033 0%, #C04AE133 50%, #0082FB33 100%)",
+        "usage": "Tinted spectrum for progress tracks and selected chart ranges."
+      },
+      {
+        "name": "gradient-core",
+        "value": "radial-gradient(120% 80% at 50% 0%, #1E1E1E 0%, #000000 60%)",
+        "usage": "Dark depth for hero and cover backgrounds (dark theme)."
+      }
+    ]
+  },
+  "blur": {
+    "tokens": [
+      {
+        "name": "blur-glass",
+        "value": "16px",
+        "usage": "Backdrop blur for bg-glass panels."
+      },
+      {
+        "name": "blur-glass-strong",
+        "value": "32px",
+        "usage": "Backdrop blur for overlays on busy imagery."
+      }
+    ]
+  },
+  "zIndex": {
+    "tokens": [
+      {
+        "name": "z-base",
+        "value": "0",
+        "usage": ""
+      },
+      {
+        "name": "z-sticky",
+        "value": "100",
+        "usage": "Sticky headers."
+      },
+      {
+        "name": "z-dropdown",
+        "value": "200",
+        "usage": "Menus."
+      },
+      {
+        "name": "z-overlay",
+        "value": "300",
+        "usage": "Scrims."
+      },
+      {
+        "name": "z-modal",
+        "value": "400",
+        "usage": "Dialogs."
+      },
+      {
+        "name": "z-toast",
+        "value": "500",
+        "usage": "Toasts."
+      },
+      {
+        "name": "z-tooltip",
+        "value": "600",
+        "usage": "Tooltips."
+      }
+    ]
+  },
+  "motion": {
+    "tokens": [
+      {
+        "name": "duration-instant",
+        "value": "80ms",
+        "usage": "Press feedback, toggles."
+      },
+      {
+        "name": "duration-fast",
+        "value": "140ms",
+        "usage": "Hover, focus, color changes."
+      },
+      {
+        "name": "duration-base",
+        "value": "220ms",
+        "usage": "Menus, tabs, small layout shifts."
+      },
+      {
+        "name": "duration-slow",
+        "value": "360ms",
+        "usage": "Dialogs, drawers, page sections."
+      },
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "usage": "Default: things entering and responding."
+      },
+      {
+        "name": "ease-in-out",
+        "value": "cubic-bezier(0.65, 0, 0.35, 1)",
+        "usage": "Things moving across the screen."
+      },
+      {
+        "name": "ease-in",
+        "value": "cubic-bezier(0.7, 0, 0.84, 0)",
+        "usage": "Things leaving."
+      }
+    ]
+  },
+  "layout": {
+    "tokens": [
+      {
+        "name": "container-max",
+        "value": "1280px",
+        "usage": "Max content width."
+      },
+      {
+        "name": "container-wide",
+        "value": "1440px",
+        "usage": "Max width for dashboards and campaign layouts."
+      },
+      {
+        "name": "container-prose",
+        "value": "680px",
+        "usage": "Max width for long-form reading."
+      },
+      {
+        "name": "breakpoint-sm",
+        "value": "640px",
+        "usage": ""
+      },
+      {
+        "name": "breakpoint-md",
+        "value": "768px",
+        "usage": ""
+      },
+      {
+        "name": "breakpoint-lg",
+        "value": "1024px",
+        "usage": ""
+      },
+      {
+        "name": "breakpoint-xl",
+        "value": "1280px",
+        "usage": ""
+      },
+      {
+        "name": "breakpoint-2xl",
+        "value": "1536px",
+        "usage": ""
+      },
+      {
+        "name": "grid-columns",
+        "value": "12",
+        "usage": "Desktop grid; 8 on tablet, 4 on mobile."
+      },
+      {
+        "name": "control-sm",
+        "value": "32px",
+        "usage": "Height of small controls."
+      },
+      {
+        "name": "control-md",
+        "value": "40px",
+        "usage": "Height of default controls."
+      },
+      {
+        "name": "control-lg",
+        "value": "48px",
+        "usage": "Height of large controls and hero inputs."
+      }
+    ]
+  }
+}

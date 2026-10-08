@@ -1,0 +1,6 @@
+node_modules/
+.DS_Store
+examples/_local*.html
+# Agrandir: commercial licence required. Keep font binaries out of git.
+fonts/agrandir/*
+!fonts/agrandir/README.md

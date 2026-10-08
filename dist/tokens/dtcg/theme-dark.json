@@ -1,0 +1,226 @@
+{
+  "color": {
+    "bg-canvas": {
+      "$type": "color",
+      "$value": "{color.ink-1000}",
+      "$description": "Page background. Brand black in dark; white in light."
+    },
+    "bg-surface": {
+      "$type": "color",
+      "$value": "{color.ink-950}",
+      "$description": "Sections, sidebars, alternating bands on the canvas."
+    },
+    "bg-raised": {
+      "$type": "color",
+      "$value": "{color.ink-900}",
+      "$description": "Cards and panels on canvas or surface (pair with border-default and shadow-1)."
+    },
+    "bg-overlay": {
+      "$type": "color",
+      "$value": "{color.ink-850}",
+      "$description": "Menus, popovers, dialogs (pair with shadow-3)."
+    },
+    "bg-sunken": {
+      "$type": "color",
+      "$value": "{color.ink-1000}",
+      "$description": "Inputs, code wells, track of switches. Always with border-strong."
+    },
+    "bg-inverse": {
+      "$type": "color",
+      "$value": "{color.ink-100}",
+      "$description": "Inverted blocks: the primary button, toasts, high-emphasis chips."
+    },
+    "bg-hover": {
+      "$type": "color",
+      "$value": "#FFFFFF0F",
+      "$description": "Hover wash on neutral rows, ghost buttons and list items."
+    },
+    "bg-selected": {
+      "$type": "color",
+      "$value": "#0082FB26",
+      "$description": "Selected rows, active nav item, chosen option."
+    },
+    "bg-glass": {
+      "$type": "color",
+      "$value": "#14141499",
+      "$description": "Glass panels over imagery or gradient; always with blur-glass and border-subtle."
+    },
+    "text-primary": {
+      "$type": "color",
+      "$value": "{color.ink-100}",
+      "$description": "Body and headings on bg-canvas, bg-surface, bg-raised, bg-overlay (≥15:1 both themes)."
+    },
+    "text-secondary": {
+      "$type": "color",
+      "$value": "{color.ink-350}",
+      "$description": "Supporting copy and descriptions on every bg-* surface (≥6.4:1 dark, ≥9.7:1 light)."
+    },
+    "text-muted": {
+      "$type": "color",
+      "$value": "{color.ink-400}",
+      "$description": "Captions, meta, placeholders on every bg-* surface (≥4.9:1 dark, ≥4.9:1 light)."
+    },
+    "text-disabled": {
+      "$type": "color",
+      "$value": "{color.ink-550}",
+      "$description": "Disabled labels only (exempt from contrast minimums)."
+    },
+    "text-inverse": {
+      "$type": "color",
+      "$value": "{color.ink-1000}",
+      "$description": "Text on bg-inverse (19:1+)."
+    },
+    "text-link": {
+      "$type": "color",
+      "$value": "{color.signal-400}",
+      "$description": "Inline links on canvas and surfaces (7.8:1 dark on black, 5.2:1 light on mist)."
+    },
+    "border-subtle": {
+      "$type": "color",
+      "$value": "{color.ink-850}",
+      "$description": "Hairline dividers inside cards and tables; decorative only."
+    },
+    "border-default": {
+      "$type": "color",
+      "$value": "{color.ink-800}",
+      "$description": "Card, panel and table outlines; decorative only."
+    },
+    "border-strong": {
+      "$type": "color",
+      "$value": "{color.ink-500}",
+      "$description": "Borders of interactive controls: inputs, checkboxes, outline buttons (≥3:1 on every surface)."
+    },
+    "accent": {
+      "$type": "color",
+      "$value": "{color.brand-signal}",
+      "$description": "Axon Signal blue: signal buttons, selected controls, focused data. Text on it is on-accent."
+    },
+    "accent-hover": {
+      "$type": "color",
+      "$value": "{color.signal-400}",
+      "$description": "Hover fill for accent controls."
+    },
+    "accent-pressed": {
+      "$type": "color",
+      "$value": "{color.signal-600}",
+      "$description": "Pressed fill for accent controls."
+    },
+    "on-accent": {
+      "$type": "color",
+      "$value": "{color.ink-1000}",
+      "$description": "Text and icons on accent, accent-hover and accent-pressed (5.6:1, 7.8:1, 5.0:1)."
+    },
+    "focus-ring": {
+      "$type": "color",
+      "$value": "{color.signal-400}",
+      "$description": "2px focus outline with 2px offset, on every surface (≥3:1)."
+    },
+    "action-primary": {
+      "$type": "color",
+      "$value": "{color.ink-100}",
+      "$description": "Primary button fill: monochrome by design (white on dark, black on light)."
+    },
+    "action-primary-hover": {
+      "$type": "color",
+      "$value": "{color.ink-0}",
+      "$description": "Primary button hover fill."
+    },
+    "action-primary-pressed": {
+      "$type": "color",
+      "$value": "{color.ink-200}",
+      "$description": "Primary button pressed fill."
+    },
+    "on-action-primary": {
+      "$type": "color",
+      "$value": "{color.ink-1000}",
+      "$description": "Label on action-primary fills (≥10:1 in every state)."
+    },
+    "tone-pulse": {
+      "$type": "color",
+      "$value": "{color.pulse-400}",
+      "$description": "Pulse accent text and icons: live, real-time, energy highlights. On every bg-* surface (≥5.6:1 dark, ≥5.4:1 light)."
+    },
+    "tone-synapse": {
+      "$type": "color",
+      "$value": "{color.synapse-400}",
+      "$description": "Synapse accent text and icons: AI-generated content, models, intelligence (7.1:1 dark, 5.6:1 light)."
+    },
+    "tone-signal": {
+      "$type": "color",
+      "$value": "{color.signal-400}",
+      "$description": "Signal accent text and icons: data, metrics, interactive hints."
+    },
+    "tone-pulse-subtle": {
+      "$type": "color",
+      "$value": "#FC1C701F",
+      "$description": "Pulse tinted background for badges and callouts."
+    },
+    "tone-synapse-subtle": {
+      "$type": "color",
+      "$value": "#C04AE11F",
+      "$description": "Synapse tinted background for AI badges and callouts."
+    },
+    "tone-signal-subtle": {
+      "$type": "color",
+      "$value": "#0082FB1F",
+      "$description": "Signal tinted background for info badges and callouts."
+    },
+    "status-success": {
+      "$type": "color",
+      "$value": "#2FD49A",
+      "$description": "Success text/icon on canvas and surfaces (11:1 dark, 5.0:1 light). Always pair with an icon or word."
+    },
+    "status-warning": {
+      "$type": "color",
+      "$value": "#F5B53D",
+      "$description": "Warning text/icon on canvas and surfaces (11.6:1 dark, 5.4:1 light). Always pair with an icon or word."
+    },
+    "status-danger": {
+      "$type": "color",
+      "$value": "#FF6B47",
+      "$description": "Error text/icon on canvas and surfaces (7.4:1 dark, 5.1:1 light). Orange-red, kept apart from Pulse magenta."
+    },
+    "status-info": {
+      "$type": "color",
+      "$value": "{color.signal-400}",
+      "$description": "Informational text/icon."
+    },
+    "status-success-subtle": {
+      "$type": "color",
+      "$value": "#2FD49A1F",
+      "$description": "Success callout/badge background."
+    },
+    "status-warning-subtle": {
+      "$type": "color",
+      "$value": "#F5B53D1F",
+      "$description": "Warning callout/badge background."
+    },
+    "status-danger-subtle": {
+      "$type": "color",
+      "$value": "#FF6B471F",
+      "$description": "Error callout/badge background."
+    }
+  },
+  "shadow": {
+    "shadow-1": {
+      "$type": "shadow",
+      "$value": "inset 0 1px 0 0 #FFFFFF0A, 0 1px 2px 0 #00000099",
+      "$description": "Resting cards and raised panels."
+    },
+    "shadow-2": {
+      "$type": "shadow",
+      "$value": "inset 0 1px 0 0 #FFFFFF0F, 0 8px 24px -8px #000000CC",
+      "$description": "Hovered cards, dropdowns, sticky headers."
+    },
+    "shadow-3": {
+      "$type": "shadow",
+      "$value": "inset 0 1px 0 0 #FFFFFF14, 0 24px 64px -16px #000000E6",
+      "$description": "Dialogs, command palette, popovers."
+    },
+    "shadow-signal": {
+      "$type": "shadow",
+      "$value": "0 0 0 1px #0082FB66, 0 0 24px -4px #0082FB80",
+      "$description": "Signal glow: AI-active elements and the focused hero input. Once per view."
+    }
+  }
+}
