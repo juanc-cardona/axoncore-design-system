@@ -1,0 +1,16 @@
+<!-- @dsCard group="Feedback" height=230 -->
+<!doctype html>
+<html>
+<head><meta charset="utf-8"></head>
+<body class="ax-root" style="margin:0">
+<div id="root" style="padding:24px"></div>
+<script>
+  var A = window.AxonCore, h = React.createElement;
+  ReactDOM.createRoot(document.getElementById('root')).render(h('div', { style: { display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: 12, width: '100%' } },
+    h(A.Alert, { tone: 'ai', title: 'Resumen generado por IA' }, 'forecast-eu supera el umbral de latencia desde las 14:02.'),
+    h(A.Alert, { tone: 'info', title: 'Nueva región disponible' }, 'eu-west-3 ya admite despliegues GPU.'),
+    h(A.Alert, { tone: 'success', title: 'Workspace creado' }, 'Ya puedes invitar a tu equipo.'),
+    h(A.Alert, { tone: 'danger', title: 'batch-legacy detenido' }, '3 reintentos fallidos. Revisa las credenciales del origen.')));
+</script>
+</body>
+</html>

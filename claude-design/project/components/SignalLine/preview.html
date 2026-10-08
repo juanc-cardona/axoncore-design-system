@@ -1,0 +1,12 @@
+<!-- @dsCard group="Brand" height=110 -->
+<!doctype html>
+<html>
+<head><meta charset="utf-8"></head>
+<body class="ax-root" style="margin:0">
+<div id="root" style="padding:32px 24px"></div>
+<script>
+  var A = window.AxonCore, h = React.createElement;
+  ReactDOM.createRoot(document.getElementById('root')).render(h('div', { style: { display: 'flex', flexDirection: 'column', gap: 24, width: '100%' } }, h(A.SignalLine, null), h(A.SignalLine, { weight: 2 }), h(A.SignalLine, { live: true })));
+</script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<!-- @dsCard group="Data display" height=160 -->
+<!doctype html>
+<html>
+<head><meta charset="utf-8"></head>
+<body class="ax-root" style="margin:0">
+<div id="root" style="padding:24px"></div>
+<script>
+  var A = window.AxonCore, h = React.createElement;
+  ReactDOM.createRoot(document.getElementById('root')).render(h('div', { style: { display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: 24, width: '100%' } },
+    h(A.Stat, { label: 'Uptime 90 días', value: '99.98%', delta: '0.02 pts', caption: 'vs. trimestre anterior' }),
+    h(A.Stat, { label: 'Latencia p95', value: '142 ms', delta: '18%', trend: 'up', caption: 'más rápida' }),
+    h(A.Stat, { label: 'Coste por inferencia', value: '$0.004', delta: '6%', trend: 'down', caption: 'revisar EU' })));
+</script>
+</body>
+</html>

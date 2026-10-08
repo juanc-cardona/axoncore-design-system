@@ -1,0 +1,51 @@
+<!-- @dsCard height=288 -->
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  html, body { margin: 0; }
+  .cover { position: relative; width: 960px; height: 288px; background: var(--bg-canvas); overflow: hidden; }
+  .cover svg { position: absolute; left: 0; top: 0; }
+  .sig { fill: var(--brand-signal); }
+  .syn { fill: var(--brand-synapse); }
+  .pul { fill: var(--brand-pulse); }
+  .inv { fill: var(--bg-inverse); }
+  .gra { fill: var(--ink-750); }
+  .dot { fill: var(--border-strong); }
+  .r-lg { rx: var(--radius-lg); }
+  .r-md { rx: var(--radius-md); }
+  .r-full { rx: 4px; }
+  .text { position: absolute; left: 48px; bottom: 40px; max-width: 440px; }
+  .name { margin: 0; font-family: var(--font-display); font-size: 88px; line-height: .92; font-weight: 400; letter-spacing: -0.03em; color: var(--text-primary); }
+  .tag { margin: 16px 0 0; font-family: var(--font-sans); font-size: 14px; line-height: 20px; color: var(--text-muted); }
+</style>
+</head>
+<body>
+<div class="cover">
+  <svg width="960" height="288" viewBox="0 0 960 288" aria-hidden="true">
+    <!-- blocks: brand-signal 160×208 (largest, the accent people know), brand-synapse 96×120, brand-pulse 128×136 bleeding right/bottom, bg-inverse 96×48 relief, ink-750 64×88 graphite core
+         arrangement: staggered stack climbing left→right like the spectrum, signal and pulse bleeding off the top and right edges
+         pattern: dot grid at 48px (space-12) pitch, 1.5px dots in border-strong — "precise, technical, 4px grid" row: the brand is a structural, data-first system
+         scales: space-6 (24) offsets, space-12 (48) pitch, radius-lg cards, radius-md small blocks -->
+    <g>
+      <circle class="dot" cx="504" cy="24" r="1.5"/><circle class="dot" cx="552" cy="24" r="1.5"/><circle class="dot" cx="600" cy="24" r="1.5"/><circle class="dot" cx="648" cy="24" r="1.5"/><circle class="dot" cx="696" cy="24" r="1.5"/><circle class="dot" cx="744" cy="24" r="1.5"/><circle class="dot" cx="792" cy="24" r="1.5"/><circle class="dot" cx="840" cy="24" r="1.5"/><circle class="dot" cx="888" cy="24" r="1.5"/><circle class="dot" cx="936" cy="24" r="1.5"/>
+      <circle class="dot" cx="504" cy="72" r="1.5"/><circle class="dot" cx="552" cy="72" r="1.5"/><circle class="dot" cx="600" cy="72" r="1.5"/><circle class="dot" cx="648" cy="72" r="1.5"/><circle class="dot" cx="696" cy="72" r="1.5"/><circle class="dot" cx="744" cy="72" r="1.5"/><circle class="dot" cx="792" cy="72" r="1.5"/><circle class="dot" cx="840" cy="72" r="1.5"/><circle class="dot" cx="888" cy="72" r="1.5"/><circle class="dot" cx="936" cy="72" r="1.5"/>
+      <circle class="dot" cx="504" cy="120" r="1.5"/><circle class="dot" cx="552" cy="120" r="1.5"/><circle class="dot" cx="600" cy="120" r="1.5"/><circle class="dot" cx="648" cy="120" r="1.5"/><circle class="dot" cx="696" cy="120" r="1.5"/><circle class="dot" cx="744" cy="120" r="1.5"/><circle class="dot" cx="792" cy="120" r="1.5"/><circle class="dot" cx="840" cy="120" r="1.5"/><circle class="dot" cx="888" cy="120" r="1.5"/><circle class="dot" cx="936" cy="120" r="1.5"/>
+      <circle class="dot" cx="504" cy="168" r="1.5"/><circle class="dot" cx="552" cy="168" r="1.5"/><circle class="dot" cx="600" cy="168" r="1.5"/><circle class="dot" cx="648" cy="168" r="1.5"/><circle class="dot" cx="696" cy="168" r="1.5"/><circle class="dot" cx="744" cy="168" r="1.5"/><circle class="dot" cx="792" cy="168" r="1.5"/><circle class="dot" cx="840" cy="168" r="1.5"/><circle class="dot" cx="888" cy="168" r="1.5"/><circle class="dot" cx="936" cy="168" r="1.5"/>
+      <circle class="dot" cx="504" cy="216" r="1.5"/><circle class="dot" cx="552" cy="216" r="1.5"/><circle class="dot" cx="600" cy="216" r="1.5"/><circle class="dot" cx="648" cy="216" r="1.5"/><circle class="dot" cx="696" cy="216" r="1.5"/><circle class="dot" cx="744" cy="216" r="1.5"/><circle class="dot" cx="792" cy="216" r="1.5"/><circle class="dot" cx="840" cy="216" r="1.5"/><circle class="dot" cx="888" cy="216" r="1.5"/><circle class="dot" cx="936" cy="216" r="1.5"/>
+      <circle class="dot" cx="504" cy="264" r="1.5"/><circle class="dot" cx="552" cy="264" r="1.5"/><circle class="dot" cx="600" cy="264" r="1.5"/><circle class="dot" cx="648" cy="264" r="1.5"/><circle class="dot" cx="696" cy="264" r="1.5"/><circle class="dot" cx="744" cy="264" r="1.5"/><circle class="dot" cx="792" cy="264" r="1.5"/><circle class="dot" cx="840" cy="264" r="1.5"/><circle class="dot" cx="888" cy="264" r="1.5"/><circle class="dot" cx="936" cy="264" r="1.5"/>
+    </g>
+    <rect class="gra r-md" x="528" y="176" width="64" height="88"/>
+    <rect class="syn r-md" x="616" y="104" width="96" height="120"/>
+    <rect class="sig r-lg" x="736" y="-24" width="160" height="208"/>
+    <rect class="inv r-md" x="736" y="208" width="96" height="48"/>
+    <rect class="pul r-lg" x="856" y="200" width="128" height="136"/>
+  </svg>
+  <div class="text">
+    <p class="name">AxonCore</p>
+    <p class="tag">Inteligencia, conectada. Dark Core, Signal Spectrum.</p>
+  </div>
+</div>
+</body>
+</html>

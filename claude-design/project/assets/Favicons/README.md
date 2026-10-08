@@ -1,0 +1,1 @@
+Isotipo en gradiente sobre negro `brand-black` con radio `radius-2xl` proporcional. `favicon.svg` para navegadores, `favicon-32.png`, `apple-touch-icon.png` (180), `icon-192.png` e `icon-512.png` para PWA, `axoncore-app-icon.svg` maestro.

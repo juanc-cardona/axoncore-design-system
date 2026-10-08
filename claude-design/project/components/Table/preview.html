@@ -1,0 +1,19 @@
+<!-- @dsCard group="Data display" height=260 -->
+<!doctype html>
+<html>
+<head><meta charset="utf-8"></head>
+<body class="ax-root" style="margin:0">
+<div id="root" style="padding:24px"></div>
+<script>
+  var A = window.AxonCore, h = React.createElement;
+  ReactDOM.createRoot(document.getElementById('root')).render(h(A.Table, { caption: 'Estado de pipelines', columns: [
+      { key: 'name', label: 'Pipeline' },
+      { key: 'status', label: 'Estado', render: function (r) { return h(A.Badge, { tone: r.tone, dot: true, live: r.tone === 'pulse' }, r.status); } },
+      { key: 'lat', label: 'p95', numeric: true }, { key: 'rps', label: 'RPS', numeric: true }],
+    rows: [
+      { id: 1, name: 'ingest-crm', status: 'En vivo', tone: 'pulse', lat: '98 ms', rps: '3.2k' },
+      { id: 2, name: 'rag-support', status: 'Saludable', tone: 'success', lat: '142 ms', rps: '1.1k' },
+      { id: 3, name: 'forecast-eu', status: 'Degradado', tone: 'warning', lat: '410 ms', rps: '640' }] }));
+</script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+Patrón Axon (tile de 96 px). `axon-pattern.svg` en tinta #FFFFFF para fondos negros (aplícalo al 6–12 % de opacidad), `axon-pattern-black.svg` en #000000 para fondos claros. Solo merch, packaging y fondos de campaña; nunca detrás de texto de lectura ni en producto.

@@ -1,0 +1,1 @@
+Pool original en PNG (1000 px). `Wbg` = fondo transparente, `bg` = con fondo negro; `Positivo` (color sobre claro), `Negativo` (color sobre negro), `Mono` (negro), `MonoW` (blanco). Úsalos solo donde no se admita SVG.
