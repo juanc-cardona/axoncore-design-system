@@ -1,5 +1,18 @@
 # Changelog
 
+## 2.0.0 — 2026-11-10
+
+Nueva norma de versiones del logo. Deja obsoleta la sección de versiones del BRANDBOOK AXONCORE.pdf.
+
+- **Horizontal (nuevo, versión principal):** isotipo a la izquierda del logotipo entero en una línea. Isotipo a 1,6X, separación de 0,75X, centros alineados (X = altura del logotipo).
+- **Vertical:** pasa a nombrar la versión con el isotipo sobre el logotipo en una línea (antes llamada "Horizontal").
+- **Retirada** la versión con el logotipo partido en dos líneas (`axon` / `core`).
+- Maestros SVG regenerados desde el vector oficial (antes vectorizados desde PNG): curvas y terminales exactos. Gradiente con los HEX del brandbook.
+- Pool PNG sustituido por los archivos oficiales de 2026-11-10.
+- **Cambio de API:** `<Logo lockup="vertical">` ahora es el logo apilado. En navegación y cabeceras usa `lockup="horizontal"` (valor por defecto).
+- Área de seguridad = X; mínimos: horizontal 24 px de alto, vertical 120 px de ancho, isotipo 20 px.
+- Docs, skill `axoncore-brand` y Claude Design actualizados.
+
 ## 1.1.1 — 2026-10-08
 
 - Nuevo tagline: "IA Generativa para impulsar tu negocio" en portada, showcase, voz y tono, skill y Claude Design.

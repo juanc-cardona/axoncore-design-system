@@ -45,7 +45,7 @@ Lucide, trazo 1,5 px, terminaciones redondeadas, 16 / 20 / 24 px, `currentColor`
 
 ## Logo
 
-Usa siempre los archivos de **Logos**: nunca reescribas `axoncore` con una fuente. *Horizontal* = isotipo sobre logotipo en una línea; *Vertical* = isotipo a la izquierda del logotipo en dos líneas; *Isotipo* = símbolo solo. `negative` sobre oscuro (principal), `positive` sobre claro, `mono-white` sobre fotografía o color. En React: `<Logo lockup="vertical" height={28} />`. Detalle en la sección Logo.
+Usa siempre los archivos de **Logos**: nunca reescribas `axoncore` con una fuente. *Horizontal* (principal) = isotipo a la izquierda del logotipo en una línea, isotipo a 1,6X y separación de 0,75X (X = altura del logotipo); *Vertical* = isotipo sobre el logotipo en una línea; *Isotipo* = símbolo solo. El logotipo nunca se parte en dos líneas. `negative` sobre oscuro (principal), `positive` sobre claro, `mono-white` sobre fotografía o color. En React: `<Logo lockup="horizontal" height={28} />`. Detalle en la sección Logo.
 
 ## Voz
 

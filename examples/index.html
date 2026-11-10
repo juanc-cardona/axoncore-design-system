@@ -45,7 +45,7 @@
       function flip() { var n = th[0] === "dark" ? "light" : "dark"; document.documentElement.dataset.theme = n; th[1](n); }
       return h(React.Fragment, null,
         h("header", { className: "nav" }, h("div", { className: "wrap" },
-          h(A.Logo, { lockup: "vertical", height: 28 }),
+          h(A.Logo, { lockup: "horizontal", height: 28 }),
           h("nav", { className: "nav-links" },
             ["Plataforma", "Soluciones", "Docs", "Precios"].map(function (l) { return h(A.Button, { key: l, variant: "ghost", size: "sm" }, l); })),
           h("div", { className: "row" },

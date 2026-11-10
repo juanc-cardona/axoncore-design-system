@@ -2,15 +2,28 @@
 
 El logo combina el **isotipo** (cuatro terminales triangulares unidas por un núcleo cóncavo: señales que convergen en un centro) y el **logotipo** `axoncore`, un lettering geométrico redondeado propio. El logotipo **no es Agrandir** ni ninguna fuente: usa siempre los archivos.
 
-## Versiones (nomenclatura del pool de archivos)
+## Versiones
 
-La nomenclatura sigue la dirección del logotipo:
+> **Norma vigente desde el 2026-11-10.** Sustituye a la sección de versiones del `BRANDBOOK AXONCORE.pdf`, que queda obsoleta en este punto hasta su actualización. El logotipo se usa **siempre entero, en una línea**: la versión con el logotipo partido en dos líneas (`axon` / `core`) queda retirada.
 
 | Versión | Composición | Usar en |
 |---|---|---|
-| **Horizontal** | Isotipo centrado sobre el logotipo en una línea. | Portadas, firmas centradas, pantallas de carga, merch frontal. |
-| **Vertical** | Isotipo a la izquierda del logotipo en dos líneas (`axon` / `core`). | Navegación web, cabeceras de documentos, firmas de email, espacios horizontales. |
-| **Isotipo** | El símbolo solo. | Favicon, app icon, avatares, marcas de agua, espacios < tamaño mínimo del logo completo. |
+| **Horizontal** · principal | Isotipo a la izquierda del logotipo en una línea. | Navegación web y de producto, cabeceras de documentos, firmas de email, pies de página, cualquier espacio de poca altura. |
+| **Vertical** | Isotipo centrado sobre el logotipo en una línea. | Portadas, cierres de deck, pantallas de carga, formatos cuadrados o verticales, redes, merch frontal. |
+| **Isotipo** | El símbolo solo. | Favicon, app icon, avatares, marcas de agua, espacios por debajo del tamaño mínimo del logo completo. |
+
+## Construcción del horizontal
+
+X = altura del logotipo `axoncore` (no tiene ascendentes ni descendentes: su altura es su altura de x).
+
+| Parámetro | Valor | Ejemplo con X = 120 px |
+|---|---|---|
+| Altura del isotipo | **1,6X** | 192 px |
+| Separación isotipo → logotipo | **0,75X** (del extremo de los brazos al borde izquierdo de la `a`) | 90 px |
+| Alineación vertical | Centro del isotipo = centro del logotipo; el isotipo sobresale **0,3X** arriba y abajo | 36 px + 36 px |
+| Proporción del conjunto | ≈ 7,36 : 1 (ancho : alto) | 1413 × 192 px |
+
+El vertical conserva la construcción del archivo original: isotipo de ≈ 2,7X, centrado sobre el logotipo, separación ≈ 0,4X. Cada versión tiene su propia proporción porque cada una está limitada por una dimensión distinta (el horizontal por la altura, el vertical por el ancho); lo constante es el logotipo.
 
 ## Colorways
 
@@ -29,7 +42,7 @@ Horizontal, de izquierda a derecha, en tres paradas: **#FC1C70 (0 %) → #C04AE1
 
 ## Área de seguridad
 
-- **Logo completo:** X = altura de la letra `o` del logotipo. Deja X libre en los cuatro lados.
+- **Logo completo (horizontal y vertical):** X = altura del logotipo (equivale a la altura de la `o`). Deja X libre en los cuatro lados.
 - **Isotipo solo:** X = 25 % del ancho del isotipo.
 - Nada (texto, bordes, otros logos, cortes de página) entra en esa área.
 
@@ -37,9 +50,11 @@ Horizontal, de izquierda a derecha, en tres paradas: **#FC1C70 (0 %) → #C04AE1
 
 | Versión | Pantalla | Impresión |
 |---|---|---|
-| Horizontal | 120 px de ancho | 30 mm |
-| Vertical | 96 px de ancho | 24 mm |
+| Horizontal | 24 px de alto (≈ 177 px de ancho) | 5 mm de alto (≈ 37 mm de ancho) |
+| Vertical | 120 px de ancho | 30 mm de ancho |
 | Isotipo | 20 px (16 px solo favicon) | 6 mm |
+
+Por debajo del mínimo del horizontal, usa el isotipo solo.
 
 ## Usos incorrectos
 
@@ -53,6 +68,8 @@ Horizontal, de izquierda a derecha, en tres paradas: **#FC1C70 (0 %) → #C04AE1
 8. Añadir sombras, contornos, brillos o efectos 3D.
 9. Reordenar o reescalar por separado isotipo y logotipo.
 10. Usar el logo como parte de una frase.
+11. Partir el logotipo en dos líneas (versión retirada).
+12. Cambiar la proporción, la separación o la alineación del horizontal: usa siempre los archivos maestros.
 
 ## Patrón Axon
 
