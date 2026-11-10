@@ -43,7 +43,7 @@ npm run check   # auditoría de contraste WCAG en ambos temas
 import "@axoncore/design-system/css";
 import { Logo, Button, Card, Stat } from "@axoncore/design-system/react";
 
-<Logo lockup="vertical" height={28} />
+<Logo lockup="horizontal" height={28} />
 <Button variant="primary">Hablar con ventas</Button>
 <Stat label="Latencia p95" value="142 ms" delta="18%" trend="up" />
 ```

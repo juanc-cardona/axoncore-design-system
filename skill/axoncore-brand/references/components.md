@@ -65,4 +65,4 @@ Hairline de 1 px (o 2) en `gradient-signal` sobre `border-subtle`. `live` anima 
 
 ## Logo
 
-`<Logo lockup="vertical|horizontal|isotype" tone="color|mono" height={28} />` — SVG inline; logotipo en `currentColor`. Navegación: vertical a 28 px. Footer: isotipo mono a 24 px.
+`<Logo lockup="horizontal|vertical|isotype" tone="color|mono" height={28} />` — SVG inline; logotipo en `currentColor`. `horizontal` (por defecto) = isotipo a la izquierda del logotipo en una línea; `vertical` = isotipo sobre el logotipo; `isotype` = símbolo solo. Navegación: horizontal a 28 px (mínimo 24 px de alto). Portadas y cierres: vertical. Footer: isotipo mono a 24 px.

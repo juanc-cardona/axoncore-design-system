@@ -43,9 +43,9 @@ These protect recognisability and accessibility; break them only if the user exp
 
 **Logo**
 - Never retype the wordmark (it is custom lettering, not a font). Use `assets/logos/*.svg` or the React `<Logo>`.
-- Versions: *Horizontal* = isotype above one-line wordmark · *Vertical* = isotype left of two-line wordmark · *Isotype*. Colorways: positive (light bg), negative (dark bg, primary), mono-black, mono-white.
+- Versions (rule since 2026-11-10; overrides the brandbook PDF): *Horizontal* (primary) = isotype LEFT of the one-line wordmark — isotype height 1.6X, gap 0.75X, centres aligned (X = wordmark height); use it for nav, headers, email signatures, footers and any low-height space. *Vertical* = isotype centred ABOVE the one-line wordmark — covers, closers, square/vertical formats. *Isotype* = the mark alone. The wordmark is never split into two lines (that version is retired). Colorways: positive (light bg), negative (dark bg, primary), mono-black, mono-white.
 - Never stretch, recolor, mirror, rotate, blur, outline, add effects, put the gradient on the wordmark, or place the color version on busy photos/gradients (use mono-white).
-- Clear space = height of the wordmark's "o"; minimum 120 px (horizontal), 96 px (vertical), 20 px (isotype).
+- Clear space = X (wordmark height = height of the "o") on all sides; minimum 24 px tall (horizontal, ≈ 177 px wide), 120 px wide (vertical), 20 px (isotype). Below the horizontal minimum use the isotype alone. Never rebuild the lockup by hand: use the master files.
 - Write the name as **AxonCore** (default: running text, UI, documents) or **AXONCORE** (all-caps pieces: headlines set in caps, stamps, overlines, merch, campaign sign-offs). One form per piece. Never Axoncore, Axon Core, AxonCORE.
 
 **Layout & surfaces**
@@ -97,7 +97,7 @@ Full scales and every token: `references/color.md` and `assets/axoncore.css`.
 - [ ] Black/dark dominates; one color moment per view; gradient only where allowed.
 - [ ] One primary action; Signal button text is black; focus ring visible.
 - [ ] Agrandir only for display, Geist for text, ≤ 2 families; one hero/impact line.
-- [ ] Logo from official files, correct colorway for the background, clear space respected, not distorted or mirrored.
+- [ ] Logo from official files, right version (horizontal for nav/headers/low height, vertical for covers), correct colorway for the background, clear space respected, wordmark never split, not distorted or mirrored.
 - [ ] All text meets WCAG AA (4.5:1; 3:1 for ≥ 24 px, borders, icons).
 - [ ] 4/8 px spacing, radii 6–12 px, consistent alignment.
 - [ ] Copy: active voice, short, data-backed, sentence case, no emoji/exclamations/buzzwords, name as "AxonCore" or "AXONCORE" (one form per piece).

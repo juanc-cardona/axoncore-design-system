@@ -2,7 +2,7 @@ import type * as React from "react";
 
 /** AxonCore logo as inline SVG. Wordmark (and the icon in mono) use currentColor, so it follows the theme. */
 export interface LogoProps extends React.HTMLAttributes<HTMLSpanElement> {
-  /** "horizontal": isotype above a one-line wordmark. "vertical": isotype left of the two-line wordmark. "isotype": the mark alone. */
+  /** "horizontal" (default): isotype left of the one-line wordmark (isotype 1.6X, gap 0.75X). "vertical": isotype above the one-line wordmark. "isotype": the mark alone. */
   lockup?: "horizontal" | "vertical" | "isotype";
   /** "color": isotype in the signal gradient. "mono": everything in currentColor. */
   tone?: "color" | "mono";
